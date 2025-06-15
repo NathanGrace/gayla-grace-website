@@ -1,4 +1,12 @@
-node_modules
+pb_data/
+pb_public/
+pocketbase
+pocketbase.exe
+*.db
+*.db-shm
+*.db-wal
+
+node_modules/
 
 # Output
 .output
@@ -7,6 +15,7 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+/package
 
 # OS
 .DS_Store
@@ -21,3 +30,13 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+tmp/
+temp/
