@@ -41,7 +41,7 @@
 </section>
 
 
-<section class="flex justify-center">
+<section id="beautifully-blended" class="flex justify-center">
     <div class="daisy-card md:daisy-card-side md:flex-row-reverse bg-base-100 shadow-sm">
         <figure>
             <img
