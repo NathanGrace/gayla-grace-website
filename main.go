@@ -1,4 +1,4 @@
-package gayla_grace_website
+package main
 
 import (
 	"log"

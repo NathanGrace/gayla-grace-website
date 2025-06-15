@@ -1,4 +1,4 @@
-module gayla-grace-website
+module main
 
 go 1.24.2
 
