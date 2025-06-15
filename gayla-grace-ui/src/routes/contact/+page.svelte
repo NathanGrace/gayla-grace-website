@@ -9,7 +9,7 @@
 <!--<p>For more information, please visit her Speaking Page.</p>-->
 
 <br>
-<p>To work with Gayla, please contact her using the form below.</p>
+<p>To work with Gayla, please contact her using the form below or call her at 501-269-6861</p>
 
 <form class="flex justify-center">
     <fieldset class="daisy-fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
