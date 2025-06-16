@@ -40,7 +40,7 @@
 
 
 <section id="beautifully-blended" class="flex justify-center my-8">
-    <div class="daisy-card daisy-card-lg sm:daisy-card-side sm:flex-row-reverse bg-base-100 shadow-sm">
+    <div class="daisy-card daisy-card-lg sm:daisy-card-side sm:flex-row-reverse bg-base-100 items-center">
         <h2 class="daisy-card-title text-2xl justify-center sm:hidden">Available Now!</h2>
         <figure>
             <img
@@ -59,7 +59,7 @@
                 Gayla reminds couples that God’s grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
                 Start your day with biblical truth and discover the grace God is ready to give your family.
             </p>
-            <div class="daisy-card-actions">
+            <div class="daisy-card-actions justify-center">
                 <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1" class="daisy-btn daisy-btn-primary">Buy On Amazon!</a>
             </div>
         </div>
@@ -68,22 +68,22 @@
 
 
 <section class="flex justify-center">
-    <div class="daisy-card lg:daisy-card-side bg-base-100 shadow-sm ">
+    <div class="daisy-card daisy-card-lg md:daisy-card-side bg-base-100 items-center shadow-sm">
         <figure>
             <img
                     src="/assets/gayla-grace-headshot-pic.jpg"
                     alt="Gayla Grace"
-                    class="min-w-[384] max-w-full max-h-[768px]"
+                    class="min-w-[256px] max-w-full max-h-[768px]"
             />
         </figure>
         <div class="daisy-card-body max-w-96">
-            <h2 class="daisy-card-title">Welcome, friend.</h2>
-            <p>As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
+            <h2 class="daisy-card-title mb-4 justify-center md:justify-start">Welcome, friend.</h2>
+            <p class="mb-4">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
-            <p>When my husband Randy and I joined our families, we didn’t know how to build loving relationships with one another.
+            <p class="mb-4">When my husband Randy and I joined our families, we didn’t know how to build loving relationships with one another.
                 It was far harder than we anticipated. But in three decades of togetherness with our five kids,  I’ve learned a great deal about marriage, building strong family relationships, and pursuing a Christ-centered home.</p>
-            <p>Now, I want to help others build loving relationships in marriage and family, and learn to trust God’s promises in every season.</p>
-            <div class="daisy-card-actions justify-end">
+            <p class="mb-4">Now, I want to help others build loving relationships in marriage and family, and learn to trust God’s promises in every season.</p>
+            <div class="daisy-card-actions justify-start">
                 <button class="daisy-btn daisy-btn-primary">Let's Connect!</button>
                 <button class="daisy-btn daisy-btn-soft">More About Me</button>
             </div>
