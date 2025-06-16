@@ -1,21 +1,19 @@
 <script>
 </script>
 
-<section
-        class="daisy-hero min-h-[640px] max-h-screen"
-        style="background-image: url(/assets/gayla-grace-hero-image.jpeg);"
->
+<section class="daisy-hero w-full bg-[url(/assets/gayla-grace-hero-image.jpeg)] sm:min-h-[640px]">
+
     <div class="daisy-hero-overlay"></div>
-    <div class="daisy-hero-content text-neutral-content text-left ">
-        <div class="max-w-4xl justify-left">
-            <h1 class="text-4xl font-bold">Helping you build loving relationships in marriage and family</h1>
+    <div class="daisy-hero-content text-neutral-content text-left m-4">
+        <div class="max-w-[812px]">
+            <h1 class="text-2xl font-bold mr-64">Helping you build loving relationships in marriage and family</h1>
             <button class="mt-4 daisy-btn daisy-btn-primary">Learn More</button>
         </div>
     </div>
 </section>
 
-<section class="flex flex-col md:flex-row justify-center">
-    <div class="daisy-card bg-base-500 w-96 shadow-sm m-4">
+<section class="flex flex-col sm:flex-row items-center justify-center max-w-[1112] mx-8">
+    <div class="daisy-card bg-base-500 w-full shadow-sm m-4">
         <div class="daisy-card-body">
             <h2 class="daisy-card-title">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
@@ -27,7 +25,7 @@
         </div>
     </div>
 
-    <div class="daisy-card bg-base-500 w-96 shadow-sm m-4">
+    <div class="daisy-card bg-base-500 w-full shadow-sm m-4">
         <div class="daisy-card-body">
             <h2 class="daisy-card-title">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
@@ -41,29 +39,29 @@
 </section>
 
 
-<section id="beautifully-blended" class="flex justify-center">
-    <div class="daisy-card md:daisy-card-side md:flex-row-reverse bg-base-100 shadow-sm">
+<section id="beautifully-blended" class="flex justify-center my-8">
+    <div class="daisy-card daisy-card-lg sm:daisy-card-side sm:flex-row-reverse bg-base-100 shadow-sm">
+        <h2 class="daisy-card-title text-2xl justify-center sm:hidden">Available Now!</h2>
         <figure>
             <img
                     src="/assets/book-covers/book-cover4-beautifully-blended.jpg"
                     alt="Beautifully Blended Book Cover"
-                    class="max-h-[512px]"
+                    class="max-h-[640px]"
             />
         </figure>
-        <div class="daisy-card-body max-w-96">
-            <h2 class="daisy-card-title justify-center md:justify-end">Available Now!</h2>
+        <div class="daisy-card-body max-w-96 justify-center">
+            <h2 class="daisy-card-title text-2xl justify-center hidden sm:flex sm:mb-8">Available Now!</h2>
             <p>Weaving two families into one requires patience, love, and tenacious hope.
                 Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
             </p>
-            <br>
-            <p>
+            <p class="mt-4">
                 When it comes to forming a blended family, Gayla has seen it all, both in her own life as a stepparent and as a coach to blended families.
                 Gayla reminds couples that God’s grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
                 Start your day with biblical truth and discover the grace God is ready to give your family.
             </p>
-    <!--        <div class="daisy-card-actions">-->
-    <!--            <button class="daisy-btn daisy-btn-primary">Listen</button>-->
-    <!--        </div>-->
+            <div class="daisy-card-actions">
+                <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1" class="daisy-btn daisy-btn-primary">Buy On Amazon!</a>
+            </div>
         </div>
     </div>
 </section>
@@ -75,7 +73,7 @@
             <img
                     src="/assets/gayla-grace-headshot-pic.jpg"
                     alt="Gayla Grace"
-                    class="max-w-[512px] max-h-[768px]"
+                    class="min-w-[384] max-w-full max-h-[768px]"
             />
         </figure>
         <div class="daisy-card-body max-w-96">
