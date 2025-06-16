@@ -68,7 +68,7 @@
 
 
 <section class="flex justify-center">
-    <div class="daisy-card daisy-card-lg md:daisy-card-side bg-base-100 items-center shadow-sm">
+    <div class="daisy-card daisy-card-lg md:daisy-card-side bg-base-100 items-center">
         <figure>
             <img
                     src="/assets/gayla-grace-headshot-pic.jpg"
