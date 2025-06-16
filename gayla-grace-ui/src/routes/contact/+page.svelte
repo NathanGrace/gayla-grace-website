@@ -11,22 +11,22 @@
 <br>
 <p>To work with Gayla, please contact her using the form below or call her at 501-269-6861</p>
 
-<form class="flex justify-center">
-    <fieldset class="daisy-fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
-        <legend class="daisy-fieldset-legend">Email Gayla</legend>
+<!--<form class="flex justify-center">-->
+<!--    <fieldset class="daisy-fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">-->
+<!--        <legend class="daisy-fieldset-legend">Email Gayla</legend>-->
 
-        <label for="name" class="daisy-label">Your Name</label>
-        <input id="name" class="daisy-input" />
+<!--        <label for="name" class="daisy-label">Your Name</label>-->
+<!--        <input id="name" class="daisy-input" />-->
 
-        <label for="email" class="daisy-label">Your Email</label>
-        <input type="email" id="email" class="daisy-input" />
+<!--        <label for="email" class="daisy-label">Your Email</label>-->
+<!--        <input type="email" id="email" class="daisy-input" />-->
 
-        <label for="message" class="daisy-label">Your Message</label>
-        <textarea id="message" class="daisy-textarea h-52"></textarea>
+<!--        <label for="message" class="daisy-label">Your Message</label>-->
+<!--        <textarea id="message" class="daisy-textarea h-52"></textarea>-->
 
-        <button class="daisy-btn daisy-btn-neutral mt-4">Send</button>
-    </fieldset>
-</form>
+<!--        <button class="daisy-btn daisy-btn-neutral mt-4">Send</button>-->
+<!--    </fieldset>-->
+<!--</form>-->
 
 <!--<img-->
 <!--    src="/assets/gayla-grace-hero-cropped.jpg"-->
