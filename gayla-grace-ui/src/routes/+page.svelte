@@ -76,7 +76,7 @@
                     class="min-w-[256px] max-w-full max-h-[768px]"
             />
         </figure>
-        <div class="daisy-card-body max-w-96">
+        <div class="daisy-card-body md:max-w-96">
             <h2 class="daisy-card-title mb-4 justify-center md:justify-start">Welcome, friend.</h2>
             <p class="mb-4">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
