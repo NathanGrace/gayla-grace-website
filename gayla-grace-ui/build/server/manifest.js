@@ -7,17 +7,17 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["assets/book-covers/book-cover1-unwrapping-the-gift-of-stepfamily-peace.jpg","assets/book-covers/book-cover2-quiet-moments-for-the-stepmom-soul.jpg","assets/book-covers/book-cover3-step-parenting-with-grace.jpeg","assets/book-covers/book-cover4-beautifully-blended.jpg","assets/family/family-pic-wedding.jpg","assets/family/family-pic.jpg","assets/fillers/book-filler-image.jpg","assets/free-resources/SteppingWithPurposeFreeEbookParenting.pdf","assets/gayla-grace-headshot-pic.jpg","assets/gayla-grace-hero-image.jpeg","assets/gayla-grace-logo-tangerine-font.png","assets/gayla-grace-rocking-chair-image.jpg","assets/headshot-favicon.jpg","assets/speaking/christian-women-speakers-logo.jpeg","assets/speaking/speaking-image-1.jpg","assets/speaking/speaking-image-2.jpg","assets/speaking/speaking-panel.jpg"]),
+	assets: new Set(["assets/book-covers/book-cover1-unwrapping-the-gift-of-stepfamily-peace.jpg","assets/book-covers/book-cover2-quiet-moments-for-the-stepmom-soul.jpg","assets/book-covers/book-cover3-step-parenting-with-grace.jpeg","assets/book-covers/book-cover4-beautifully-blended.jpg","assets/family/family-pic-wedding.jpg","assets/family/family-pic.jpg","assets/fillers/book-filler-image.jpg","assets/free-resources/SteppingWithPurposeFreeEbookParenting.pdf","assets/gayla-grace-headshot-pic.jpg","assets/gayla-grace-hero-cropped.jpg","assets/gayla-grace-hero-image.jpeg","assets/gayla-grace-logo-tangerine-font.png","assets/gayla-grace-rocking-chair-image.jpg","assets/headshot-favicon.jpg","assets/speaking/christian-women-speakers-logo.jpeg","assets/speaking/speaking-image-1.jpg","assets/speaking/speaking-image-2.jpg","assets/speaking/speaking-panel.jpg"]),
 	mimeTypes: {".jpg":"image/jpeg",".jpeg":"image/jpeg",".pdf":"application/pdf",".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.BfWvEtE2.js",app:"_app/immutable/entry/app.zLS46kVJ.js",imports:["_app/immutable/entry/start.BfWvEtE2.js","_app/immutable/chunks/DXTjtAUW.js","_app/immutable/chunks/B9ZOWKL-.js","_app/immutable/chunks/DJ4bn_30.js","_app/immutable/entry/app.zLS46kVJ.js","_app/immutable/chunks/B9ZOWKL-.js","_app/immutable/chunks/C810wGTp.js","_app/immutable/chunks/D5J7uzp-.js","_app/immutable/chunks/DJ4bn_30.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.CwdjY4nx.js",app:"_app/immutable/entry/app.DAdSwqd1.js",imports:["_app/immutable/entry/start.CwdjY4nx.js","_app/immutable/chunks/BQ0bkdmJ.js","_app/immutable/chunks/B9ZOWKL-.js","_app/immutable/chunks/DJ4bn_30.js","_app/immutable/entry/app.DAdSwqd1.js","_app/immutable/chunks/B9ZOWKL-.js","_app/immutable/chunks/C810wGTp.js","_app/immutable/chunks/D5J7uzp-.js","_app/immutable/chunks/DJ4bn_30.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
-			__memo(() => import('./chunks/0-DuytYie_.js')),
-			__memo(() => import('./chunks/1-8QfKPKrp.js')),
-			__memo(() => import('./chunks/2-BPA9gS02.js')),
-			__memo(() => import('./chunks/3-BGHentWI.js')),
+			__memo(() => import('./chunks/0-0M33XcxX.js')),
+			__memo(() => import('./chunks/1-Dze9VxDx.js')),
+			__memo(() => import('./chunks/2-BUrr5Bqc.js')),
+			__memo(() => import('./chunks/3-BbTh2peq.js')),
 			__memo(() => import('./chunks/4-p_qmek0y.js')),
-			__memo(() => import('./chunks/5-BOApK_qP.js')),
+			__memo(() => import('./chunks/5-Dt8v5IiW.js')),
 			__memo(() => import('./chunks/6-WyySfEym.js')),
 			__memo(() => import('./chunks/7-t18qSR5D.js'))
 		],
