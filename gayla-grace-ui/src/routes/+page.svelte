@@ -7,7 +7,7 @@
     <div class="daisy-hero-content text-neutral-content text-left m-4">
         <div class="max-w-[812px]">
             <h1 class="text-2xl font-bold mr-64">Helping you build loving relationships in marriage and family</h1>
-            <button class="mt-4 daisy-btn daisy-btn-primary">Learn More</button>
+            <a href="/about" class="mt-4 daisy-btn daisy-btn-primary">Learn More</a>
         </div>
     </div>
 </section>
@@ -20,7 +20,7 @@
                 Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let’s connect and plan the experience your group is seeking.</p>
             <div class="daisy-card-actions justify-end">
-                <button class="daisy-btn daisy-btn-soft">Contact Me</button>
+                <a href="/contact" class="daisy-btn daisy-btn-soft">Contact Me</a>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
                 Her most recent book, Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
             <div class="daisy-card-actions justify-end">
-                <button class="daisy-btn daisy-btn-soft">Contact Me</button>
+                <a href="/contact" class="daisy-btn daisy-btn-soft">Contact Me</a>
             </div>
         </div>
     </div>
@@ -84,8 +84,8 @@
                 It was far harder than we anticipated. But in three decades of togetherness with our five kids,  I’ve learned a great deal about marriage, building strong family relationships, and pursuing a Christ-centered home.</p>
             <p class="mb-4">Now, I want to help others build loving relationships in marriage and family, and learn to trust God’s promises in every season.</p>
             <div class="daisy-card-actions justify-start">
-                <button class="daisy-btn daisy-btn-primary">Let's Connect!</button>
-                <button class="daisy-btn daisy-btn-soft">More About Me</button>
+                <a href="/contact" class="daisy-btn daisy-btn-primary">Let's Connect!</a>
+                <a href="/about" class="daisy-btn daisy-btn-soft">More About Me</a>
             </div>
         </div>
     </div>
