@@ -10,7 +10,7 @@
 
     <div class="flex flex-col max-w-100 justify-center">
         <h1 class="text-4xl font-bold">Author. Speaker. Host of Monthly Livestream.</h1>
-        <p class="mt-4">My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish.</p>
+        <p class="mt-4">My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish</p>
     </div>
 </section>
 
