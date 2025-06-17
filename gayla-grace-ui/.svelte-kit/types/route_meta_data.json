@@ -1,8 +1,21 @@
 {
-	"/": [],
-	"/about": [],
-	"/books": [],
-	"/contact": [],
-	"/free-resources": [],
-	"/speaking": []
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/books": [
+		"src/routes/+layout.ts"
+	],
+	"/contact": [
+		"src/routes/+layout.ts"
+	],
+	"/free-resources": [
+		"src/routes/+layout.ts"
+	],
+	"/speaking": [
+		"src/routes/+layout.ts"
+	]
 }
