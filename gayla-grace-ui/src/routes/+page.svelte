@@ -6,7 +6,7 @@
     <div class="daisy-hero-overlay"></div>
     <div class="daisy-hero-content text-neutral-content text-left m-4">
         <div class="max-w-[812px]">
-            <h1 class="text-2xl font-bold mr-64">Helping you build loving relationships in marriage and family</h1>
+            <h1 class="text-2xl font-bold mr-36 sm:mr-64">Helping you build loving relationships in marriage and family</h1>
             <a href="/about" class="mt-4 daisy-btn daisy-btn-primary">Learn More</a>
         </div>
     </div>
