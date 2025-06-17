@@ -17,7 +17,7 @@
 <section class="flex flex-col items-center justify-center m-8">
     <h2 class="font-cursive text-4xl sm:text-5xl">Hello friend, I'm Gayla.</h2>
 
-    <div class="flex flex-col items-center justify-center max-w-[768px] space-y-8 m-8">
+    <div class="flex flex-col items-center justify-center max-w-[768px] space-y-8 mt-8">
         <p>Hello friend, I’m Gayla. I’ve been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids, two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
         <p>Professionally, I’m a full-time staff member with FamilyLife®, an international organization dedicated to spreading God’s Word through the family as we seek to make every home a godly home. I regularly speak at their events, including podcasts, livestreams, and audio broadcasts. </p>
         <p>I’m the author of three books, including my most recent, Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families. </p>

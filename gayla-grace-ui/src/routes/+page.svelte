@@ -39,7 +39,7 @@
 </section>
 
 
-<section id="beautifully-blended" class="flex justify-center gap-8 mt-8">
+<section id="beautifully-blended" class="flex justify-center gap-8 m-y-4">
     <div class="daisy-card daisy-card-lg sm:daisy-card-side sm:flex-row-reverse bg-base-100 items-center">
         <h2 class="daisy-card-title text-2xl justify-center sm:hidden">Available Now!</h2>
         <figure>
@@ -49,7 +49,7 @@
                     class="max-h-[640px]"
             />
         </figure>
-        <div class="daisy-card-body max-w-96 justify-center">
+        <div class="daisy-card-body md:max-w-96 justify-center">
             <h2 class="daisy-card-title text-2xl justify-center hidden sm:flex sm:mb-8">Available Now!</h2>
             <p>Weaving two families into one requires patience, love, and tenacious hope.
                 Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
