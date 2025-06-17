@@ -12,8 +12,8 @@
     </div>
 </section>
 
-<section class="flex flex-col sm:flex-row items-center justify-center max-w-[1112] mx-8">
-    <div class="daisy-card bg-base-500 w-full shadow-sm m-4">
+<section class="flex flex-col sm:flex-row items-center justify-center mx-8">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
         <div class="daisy-card-body">
             <h2 class="daisy-card-title">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div class="daisy-card bg-base-500 w-full shadow-sm m-4">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
         <div class="daisy-card-body">
             <h2 class="daisy-card-title">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
