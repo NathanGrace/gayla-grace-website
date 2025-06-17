@@ -1,6 +1,8 @@
 <script>
 </script>
 
+<h2 class="flex text-5xl font-bold items-center justify-center"> Hi Trisella :)</h2>
+
 <h1 class="text-2xl font-bold">Contact</h1>
 
 <p>Gayla communicates with a humble and transparent heart that draws people in to listen and learn. She shares from her own hard places with a desire to drive her audience toward God and discover His comfort, wisdom, and peace for every season.</p>
