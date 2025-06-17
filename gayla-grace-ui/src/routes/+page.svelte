@@ -15,7 +15,7 @@
 <section class="flex flex-col sm:flex-row items-center justify-center mx-8">
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
         <div class="daisy-card-body">
-            <h2 class="daisy-card-title">Gayla Speaks</h2>
+            <h2 class="daisy-card-title font-cursive text-5xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
                 Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let’s connect and plan the experience your group is seeking.</p>
@@ -27,7 +27,7 @@
 
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
         <div class="daisy-card-body">
-            <h2 class="daisy-card-title">Gayla Writes</h2>
+            <h2 class="daisy-card-title font-cursive text-5xl">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
                 Her most recent book, Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
@@ -76,8 +76,8 @@
                     class="min-w-[256px] max-w-full max-h-[768px]"
             />
         </figure>
-        <div class="daisy-card-body md:max-w-96">
-            <h2 class="daisy-card-title mb-4 justify-center md:justify-start">Welcome, friend.</h2>
+        <div class="daisy-card-body md:max-w-96 ">
+            <h2 class="daisy-card-title mb-4 justify-center md:justify-start font-cursive text-5xl">Welcome, friend.</h2>
             <p class="mb-4">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
             <p class="mb-4">When my husband Randy and I joined our families, we didn’t know how to build loving relationships with one another.

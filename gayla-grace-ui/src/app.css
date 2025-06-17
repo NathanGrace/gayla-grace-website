@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&family=Tangerine:wght@400;700&display=swap');
+
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+    --font-sans: "Mada", sans-serif;
+    --font-cursive: "Tangerine", sans-serif;
+
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
+
 @plugin "daisyui" {
     /*themes: light --default, dark --prefersdark;*/
     themes: light --default;

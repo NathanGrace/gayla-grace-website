@@ -15,7 +15,7 @@
 </section>
 
 <section class="flex flex-col items-center justify-center m-8">
-    <h2 class="text-2xl font-bold">Hello friend, I'm Gayla.</h2>
+    <h2 class="font-cursive text-5xl">Hello friend, I'm Gayla.</h2>
 
     <div class="flex flex-col items-center justify-center max-w-[768px] space-y-8 m-8">
         <p>Hello friend, I’m Gayla. I’ve been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids, two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
@@ -27,7 +27,7 @@
 
 
 <section class="flex flex-col items-center justify-center m-8">
-    <h2 class="flex flex-col text-2xl font-bold">My Ministry Beginning</h2>
+    <h2 class="flex flex-col text-5xl font-cursive">My Ministry Beginning</h2>
 
     <div class="flex flex-col items-center justify-center max-w-[768px] space-y-8 mt-8">
         <p>My passion for strong marriages and healthy relationships developed as a result of a messy divorce during my early adult years. I returned to school to study human behavior and earned a master’s degree in Psychology and Counseling, driven by a desire to help others build resilient families that endure over time.</p>
