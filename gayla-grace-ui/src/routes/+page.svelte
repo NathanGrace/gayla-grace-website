@@ -39,7 +39,7 @@
 </section>
 
 
-<section id="beautifully-blended" class="flex justify-center m-4">
+<section id="beautifully-blended" class="flex justify-center m-4 scroll-mt-6">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
         <h2 class="daisy-card-title text-2xl justify-center sm:hidden">Available Now!</h2>
         <figure>
