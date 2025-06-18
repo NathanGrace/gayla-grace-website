@@ -52,7 +52,7 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "css": [
-      "_app/immutable/assets/_layout.EAoXhK-L.css"
+      "_app/immutable/assets/_layout.CzuhRNMe.css"
     ]
   },
   "src/routes/+layout.ts": {
