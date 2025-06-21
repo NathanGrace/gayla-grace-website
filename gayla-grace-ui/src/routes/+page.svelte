@@ -26,8 +26,8 @@
         </div>
     </div>
 
-    <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-accent m-4 max-w-[512px]">
-        <div class="daisy-card-body text-base space-y-6 border-t-4 border-accent rounded-md">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-primary m-4 max-w-[512px]">
+        <div class="daisy-card-body text-base space-y-6 border-t-4 border-primary rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
                 Her most recent book,
@@ -36,7 +36,7 @@
                 </a>,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
             <div class="daisy-card-actions justify-end">
-                <a href="/books" class="daisy-btn daisy-btn-soft daisy-btn-accent">Books</a>
+                <a href="/books" class="daisy-btn daisy-btn-soft daisy-btn-primary">Books</a>
             </div>
         </div>
     </div>
