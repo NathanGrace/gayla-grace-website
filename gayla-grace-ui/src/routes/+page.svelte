@@ -7,14 +7,14 @@
     <div class="daisy-hero-content text-neutral-content text-left shrink-1 ">
         <div class="max-w-[880px]">
 <!--            <h1 class="text-3xl mr-56 sm:mr-80 md:mr-90 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]"><i>Helping you build loving relationships in marriage and family</i></h1>-->
-            <h1 class="font-lora text-3xl mr-56 sm:mr-94 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]"><i>Helping you build loving relationships in marriage and family</i></h1>
+            <h1 class="font-lora italic text-3xl mr-56 sm:mr-94 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you build loving relationships in marriage and family</h1>
             <a href="/about" class="mt-4 daisy-btn daisy-btn-primary sm:daisy-btn-lg">Learn More</a>
         </div>
     </div>
 </section>
 
 <section class="flex flex-col sm:flex-row items-center justify-center m-4">
-    <div class="daisy-card flex-1 bg-base-500 w-full shadow-xl shadow-primary m-4 max-w-[512px]">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-md shadow-primary m-4 max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
@@ -56,7 +56,7 @@
             </a>
         </figure>
         <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl justify-center space-y-2 text-lg">
-            <h2 class="daisy-card-title text-4xl hidden sm:flex">Available Now!</h2>
+            <h2 class="daisy-card-title font-lora italic text-5xl hidden sm:flex text-shadow-md text-accent">Available Now!</h2>
             <p class="flex items-center grow-0">Weaving two families into one requires patience, love, and tenacious hope.
                 Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
             </p>
