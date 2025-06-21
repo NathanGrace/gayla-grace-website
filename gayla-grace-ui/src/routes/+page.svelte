@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="daisy-hero w-full bg-[url(/assets/gayla-grace-hero-image.jpeg)] sm:min-h-[640px]">
+<section class="daisy-hero w-full bg-[url(/assets/gayla-grace-hero-image.jpeg)] sm:min-h-[640px] overflow-x-hidden">
     <div class="daisy-hero-overlay bg-black/15"></div>
 
     <div class="daisy-hero-content text-neutral-content text-left shrink-1">
