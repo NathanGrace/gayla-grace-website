@@ -9,7 +9,7 @@
     />
 
     <div class="flex flex-col max-w-92 justify-center">
-        <h1 class="text-4xl font-bold">Hello friend, I'm Gayla!</h1>
+        <h1 class="text-5xl font-cursive font-bold">Hello friend, I'm Gayla!</h1>
         <p class="mt-4">I love the roles I'm privileged to play as a wife, mom, stepmom, Gigi, sister, and friend. Professionally, I'm a speaker, author, monthly livestream host, and content provider/specialist for FamilyLife®</p>
         <p class="mt-4">Most importantly, I'm a follower of Jesus Christ who turns to God's Word and the Holy Spirit to find answers for life's questions.</p>
 <!--        <p class="mt-4">My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish</p>-->
@@ -17,10 +17,8 @@
 </section>
 
 <section class="flex flex-col items-center justify-center m-8">
-    <h2 class="font-cursive text-4xl sm:text-5xl">Hello friend, I'm Gayla.</h2>
-
     <div class="flex flex-col items-center justify-center max-w-[768px] space-y-8 mt-8">
-        <p>Hello friend, I’m Gayla. I’ve been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids, two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
+        <p>I’ve been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids, two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
         <p>Professionally, I’m a full-time staff member with FamilyLife®, an international organization dedicated to spreading God’s Word through the family as we seek to make every home a godly home. I regularly speak at their events, including podcasts, livestreams, and audio broadcasts. </p>
         <p>I’m the author of three books, including my most recent, Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families. </p>
         <p>Most importantly, I’m a follower of Jesus Christ who turns to God’s Word and the Holy Spirit to find answers for life’s questions.</p>

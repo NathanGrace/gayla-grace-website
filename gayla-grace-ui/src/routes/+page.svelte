@@ -57,10 +57,10 @@
         </figure>
         <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl justify-center space-y-2 text-lg">
             <h2 class="daisy-card-title font-lora italic text-5xl hidden sm:flex text-shadow-md text-accent">Available Now!</h2>
-            <p class="flex items-center grow-0">Weaving two families into one requires patience, love, and tenacious hope.
-                Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
+            <p class="grow-0">Weaving two families into one requires patience, love, and tenacious hope.
+                <i>Beautifully Blended</i> offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
             </p>
-            <p class="flex items-center grow-0">
+            <p class="grow-0">
                 When it comes to forming a blended family, Gayla has seen it all, both in her own life as a stepparent and as a coach to blended families.
                 Gayla reminds couples that God’s grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
                 Start your day with biblical truth and discover the grace God is ready to give your family.

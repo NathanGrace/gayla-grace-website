@@ -74,7 +74,7 @@
             <aside class="md:hidden">
                 <h2 class="text-lg font-bold mb-4">Gayla Grace</h2>
                 <p class="text-sm opacity-80 max-w-xs mx-auto leading-relaxed">
-                    My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish
+                    My mission is to equip and empower those seeking support in family and marriage relationships with faith-based tools that enable them to flourish.
                 </p>
             </aside>
         </div>
@@ -84,7 +84,7 @@
             <aside class="hidden md:block text-center md:text-left">
                 <h2 class="text-lg font-bold mb-4">Gayla Grace</h2>
                 <p class="text-sm opacity-80 max-w-xs leading-relaxed">
-                    My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish
+                    My mission is to equip and empower those seeking support in family and marriage relationships with faith-based tools that enable them to flourish.
                 </p>
             </aside>
 
@@ -163,7 +163,7 @@
         <div class="border-t border-gray-700 mt-8 pt-4"></div>
         <div class="text-center">
             <p class="text-sm opacity-80">
-                © Gayla Grace. All rights reserved.
+                © 2025 Gayla Grace. All rights reserved.
             </p>
         </div>
     </div>
