@@ -42,7 +42,7 @@
 </section>
 
 
-<section id="beautifully-blended" class="flex justify-center m-4 scroll-mt-6">
+<section id="beautifully-blended" class="flex justify-center mt-4 p-4 scroll-mt-6">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
         <h2 class="daisy-card-title text-4xl justify-center sm:hidden">Available Now!</h2>
         <figure>
@@ -54,7 +54,7 @@
                 />
             </a>
         </figure>
-        <div class="daisy-card-body max-w-md sm:max-w-lg lg:max-w-xl justify-center space-y-2 text-lg">
+        <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl justify-center space-y-2 text-lg">
             <h2 class="daisy-card-title text-4xl hidden sm:flex">Available Now!</h2>
             <p class="flex items-center grow-0">Weaving two families into one requires patience, love, and tenacious hope.
                 Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
@@ -72,9 +72,9 @@
 </section>
 
 
-<section class="flex justify-center m-4">
-    <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
-        <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl space-y-2 justify-center text-lg"><!--THIS ONE-->
+<section class="flex justify-center mt-4 p-4">
+    <div class="daisy-card daisy-card-lg md:daisy-card-side items-center overflow-x-hidden">
+        <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl space-y-2 justify-center text-lg">
             <h2 class="daisy-card-title justify-center font-cursive text-6xl md:justify-start ">Welcome, friend.</h2>
             <p class="flex grow-0">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
