@@ -68,6 +68,7 @@
 
 <footer class="footer p-10 mt-2">
     <div class="container mx-auto">
+        <div class="border-t border-gray-700 mt-8 pt-4"></div>
         <!-- Mission Statement - Full width on mobile, first column on desktop -->
         <div class="text-center md:text-left mb-8 md:mb-0">
             <aside class="md:hidden">
@@ -159,7 +160,6 @@
             </nav>
         </div>
 
-        <!-- Copyright Bar with Divider -->
         <div class="border-t border-gray-700 mt-8 pt-4"></div>
         <div class="text-center">
             <p class="text-sm opacity-80">
