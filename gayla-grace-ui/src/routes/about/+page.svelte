@@ -9,7 +9,9 @@
     />
 
     <div class="flex flex-col max-w-92 justify-center">
-        <h1 class="text-4xl font-bold">Author. Speaker. Christ-follower.</h1>
+        <h1 class="text-4xl font-bold">Hello friend, I'm Gayla!</h1>
+        <p class="mt-4">I love the roles I'm priveleged to play as a wife, mom, stepmom, Gigi, sister, and frield. Professionally, I'm a speaker, author, monthly livestream host, and content provider/specialist for FamilyLife*R*</p>
+        <p class="mt-4">Most importantly, I'm a follower of Jesus Christ who turns to God's Word and the Holy Spirit to find answers for life's questions.</p>
 <!--        <p class="mt-4">My mission is to equip and empower those seeking help in family and marriage relationships with faith-based tools that enable them to flourish</p>-->
     </div>
 </section>
