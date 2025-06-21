@@ -4,10 +4,10 @@
 <section class="daisy-hero w-full bg-[url(/assets/gayla-grace-hero-image.jpeg)] sm:min-h-[640px]">
     <div class="daisy-hero-overlay bg-black/15"></div>
 
-    <div class="daisy-hero-content text-neutral-content text-left  shrink-1">
+    <div class="daisy-hero-content text-neutral-content text-left shrink-1">
         <div class="max-w-[812px]">
-            <h1 class="text-2xl mr-36 md:mr-[424px] text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you build loving relationships in marriage and family</h1>
-            <a href="/about" class="mt-4 daisy-btn daisy-btn-primary">Learn More</a>
+            <h1 class="text-3xl mr-56 sm:mr-80 md:mr-90 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you build loving relationships in marriage and family</h1>
+            <a href="/about" class="mt-4 daisy-btn daisy-btn-primary sm:daisy-btn-lg">Learn More</a>
         </div>
     </div>
 </section>
