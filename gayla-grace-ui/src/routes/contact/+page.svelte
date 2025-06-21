@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<h1 class="flex justify-center text-2xl font-bold my-8 ">Reach Out To Me!</h1>
+<h1 class="flex justify-center font-lora text-3xl sm:text-4xl italic font-bold my-8">Reach Out To Me!</h1>
 
 <div class="flex flex-col md:flex-row gap-8 justify-center items-center mx-8">
     <div class="relative inline-block">
