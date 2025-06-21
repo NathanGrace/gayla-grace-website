@@ -119,7 +119,7 @@
                 </h6>
                 <div class="text-sm opacity-80 space-y-2">
                     <p>gayla.grace@familylife.com</p>
-                    <p>(501) 259-6861</p>
+                    <p>(501) 269-6861</p>
 
                     <!-- Social Links -->
                     <div class="flex gap-3 md:gap-4 mt-4 justify-center md:justify-start">
