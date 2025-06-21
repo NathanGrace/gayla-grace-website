@@ -69,6 +69,6 @@
 
 <footer class="footer">
     <nav>
-        <h6></h6>
+        <h6>Footer will go here</h6>
     </nav>
 </footer>

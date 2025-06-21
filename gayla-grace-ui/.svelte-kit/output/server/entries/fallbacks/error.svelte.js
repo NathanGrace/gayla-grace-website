@@ -1,5 +1,5 @@
 import "clsx";
-import { q as noop, t as getContext, n as pop, p as push } from "../../chunks/index.js";
+import { n as noop, g as getContext, p as pop, a as push } from "../../chunks/index.js";
 import { w as writable } from "../../chunks/exports.js";
 const CONTENT_REGEX = /[&<]/g;
 function escape_html(value, is_attr) {

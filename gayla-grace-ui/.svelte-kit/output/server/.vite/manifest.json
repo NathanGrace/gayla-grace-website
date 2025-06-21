@@ -52,7 +52,7 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "css": [
-      "_app/immutable/assets/_layout.CzuhRNMe.css"
+      "_app/immutable/assets/_layout.CRsI2abI.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -77,6 +77,12 @@
     "file": "entries/pages/books/_page.svelte.js",
     "name": "entries/pages/books/_page.svelte",
     "src": "src/routes/books/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/contact/+page.server.ts": {
+    "file": "entries/pages/contact/_page.server.ts.js",
+    "name": "entries/pages/contact/_page.server.ts",
+    "src": "src/routes/contact/+page.server.ts",
     "isEntry": true
   },
   "src/routes/contact/+page.svelte": {
