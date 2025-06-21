@@ -14,20 +14,20 @@
 </section>
 
 <section class="flex flex-col sm:flex-row items-center justify-center m-4">
-    <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
-        <div class="daisy-card-body text-base space-y-6">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-primary m-4 max-w-[512px]">
+        <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
                 Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let’s connect and plan the experience your group is seeking.</p>
             <div class="daisy-card-actions justify-end">
-                <a href="/contact" class="daisy-btn daisy-btn-soft daisy-btn-primary">Contact Me</a>
+                <a href="/speaking" class="daisy-btn daisy-btn-soft daisy-btn-primary">Speaking</a>
             </div>
         </div>
     </div>
 
-    <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
-        <div class="daisy-card-body text-base space-y-6">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-accent m-4 max-w-[512px]">
+        <div class="daisy-card-body text-base space-y-6 border-t-4 border-accent rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
                 Her most recent book,
@@ -36,7 +36,7 @@
                 </a>,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
             <div class="daisy-card-actions justify-end">
-                <a href="/contact" class="daisy-btn daisy-btn-soft">Contact Me</a>
+                <a href="/books" class="daisy-btn daisy-btn-soft daisy-btn-accent">Books</a>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@
             <p class="flex grow-0">Now, I want to help others build loving relationships in marriage and family, and learn to trust God’s promises in every season.</p>
             <div class="daisy-card-actions justify-start mt-2">
                 <a href="/contact" class="daisy-btn daisy-btn-primary">Let's Connect!</a>
-                <a href="/about" class="daisy-btn daisy-btn-soft">More About Me</a>
+                <a href="/about" class="daisy-btn daisy-btn-soft daisy-btn-primary">More About Me</a>
             </div>
         </div>
         <figure>
