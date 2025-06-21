@@ -10,7 +10,7 @@
 </head>
 
 <header>
-    <nav class="daisy-navbar">
+    <nav class="daisy-navbar bg-base-300">
         <div class="daisy-navbar-start">
             <div class="daisy-dropdown">
                 <div tabindex="0" role="button" class="daisy-btn daisy-btn-ghost sm:daisy-btn-lg lg:hidden">
@@ -66,7 +66,7 @@
 
 {@render children()}
 
-<footer class="footer p-10 mt-2">
+<footer class="footer p-10 mt-2 bg-base-300">
     <div class="container mx-auto">
         <div class="border-t border-gray-700 mt-8 pt-4"></div>
         <!-- Mission Statement - Full width on mobile, first column on desktop -->

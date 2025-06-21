@@ -18,8 +18,8 @@
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
-                Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
-                Let’s connect and plan the experience your group is seeking.</p>
+                Whether speaking on marriage, God's promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
+                Let's connect and plan the experience your group is seeking.</p>
             <div class="daisy-card-actions justify-end">
                 <a href="/speaking" class="daisy-btn daisy-btn-soft daisy-btn-primary">Speaking</a>
             </div>
@@ -62,7 +62,7 @@
             </p>
             <p class="grow-0">
                 When it comes to forming a blended family, Gayla has seen it all, both in her own life as a stepparent and as a coach to blended families.
-                Gayla reminds couples that God’s grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
+                Gayla reminds couples that God's grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
                 Start your day with biblical truth and discover the grace God is ready to give your family.
             </p>
             <div class="daisy-card-actions">
@@ -79,9 +79,9 @@
             <h2 class="daisy-card-title justify-center font-cursive text-6xl md:justify-start ">Welcome, friend.</h2>
             <p class="flex grow-0">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
-            <p class="flex grow-0">When my husband Randy and I joined our families, we didn’t know how to build loving relationships with one another.
-                It was far harder than we anticipated. But in three decades of togetherness with our five kids,  I’ve learned a great deal about marriage, building strong family relationships, and pursuing a Christ-centered home.</p>
-            <p class="flex grow-0">Now, I want to help others build loving relationships in marriage and family, and learn to trust God’s promises in every season.</p>
+            <p class="flex grow-0">When my husband Randy and I joined our families, we didn't know how to build loving relationships with one another.
+                It was far harder than we anticipated. But in three decades of togetherness with our five kids,  I've learned a great deal about marriage, building strong family relationships, and pursuing a Christ-centered home.</p>
+            <p class="flex grow-0">Now, I want to help others build loving relationships in marriage and family, and learn to trust God's promises in every season.</p>
             <div class="daisy-card-actions justify-start mt-2">
                 <a href="/contact" class="daisy-btn daisy-btn-primary">Let's Connect!</a>
                 <a href="/about" class="daisy-btn daisy-btn-soft daisy-btn-primary">More About Me</a>
