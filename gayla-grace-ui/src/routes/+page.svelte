@@ -48,7 +48,7 @@
         <figure>
             <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
                 <img
-                        src="/assets/book-covers/book-cover4-beautifully-blended.jpg"
+                        src="/assets/book-covers/book-cover4-beautifully-blended.png"
                         alt="Beautifully Blended Book Cover"
                         class="max-h-[640px]"
                 />
