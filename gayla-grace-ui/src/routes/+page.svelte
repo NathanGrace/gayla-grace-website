@@ -4,9 +4,10 @@
 <section class="daisy-hero w-full bg-[url(/assets/gayla-grace-hero-image.jpeg)] sm:min-h-[640px] overflow-x-hidden">
     <div class="daisy-hero-overlay bg-black/15"></div>
 
-    <div class="daisy-hero-content text-neutral-content text-left shrink-1">
-        <div class="max-w-[812px]">
-            <h1 class="text-3xl mr-56 sm:mr-80 md:mr-90 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you build loving relationships in marriage and family</h1>
+    <div class="daisy-hero-content text-neutral-content text-left shrink-1 ">
+        <div class="max-w-[880px]">
+<!--            <h1 class="text-3xl mr-56 sm:mr-80 md:mr-90 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]"><i>Helping you build loving relationships in marriage and family</i></h1>-->
+            <h1 class="font-lora text-3xl mr-56 sm:mr-94 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]"><i>Helping you build loving relationships in marriage and family</i></h1>
             <a href="/about" class="mt-4 daisy-btn daisy-btn-primary sm:daisy-btn-lg">Learn More</a>
         </div>
     </div>
@@ -20,7 +21,7 @@
                 Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let’s connect and plan the experience your group is seeking.</p>
             <div class="daisy-card-actions justify-end">
-                <a href="/contact" class="daisy-btn daisy-btn-soft">Contact Me</a>
+                <a href="/contact" class="daisy-btn daisy-btn-soft daisy-btn-primary">Contact Me</a>
             </div>
         </div>
     </div>
