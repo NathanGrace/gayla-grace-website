@@ -14,7 +14,7 @@
 </section>
 
 <section class="flex flex-col sm:flex-row items-center justify-center m-4">
-    <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-primary m-4 max-w-[512px]">
+    <div class="daisy-card flex-1 bg-base-500 w-full shadow-xl shadow-primary m-4 max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
