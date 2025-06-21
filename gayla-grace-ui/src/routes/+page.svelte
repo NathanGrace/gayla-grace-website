@@ -14,8 +14,8 @@
 
 <section class="flex flex-col sm:flex-row items-center justify-center m-4">
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
-        <div class="daisy-card-body">
-            <h2 class="daisy-card-title font-cursive text-5xl">Gayla Speaks</h2>
+        <div class="daisy-card-body text-base space-y-6">
+            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
                 Whether speaking on marriage, God’s promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let’s connect and plan the experience your group is seeking.</p>
@@ -26,10 +26,13 @@
     </div>
 
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-sm m-4 max-w-[512px]">
-        <div class="daisy-card-body">
-            <h2 class="daisy-card-title font-cursive text-5xl">Gayla Writes</h2>
+        <div class="daisy-card-body text-base space-y-6">
+            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Writes</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
-                Her most recent book, Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families,
+                Her most recent book,
+                <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
+                    <i class="hover:text-blue-400 text-[17px]">Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families</i>
+                </a>,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
             <div class="daisy-card-actions justify-end">
                 <a href="/contact" class="daisy-btn daisy-btn-soft">Contact Me</a>
@@ -41,16 +44,18 @@
 
 <section id="beautifully-blended" class="flex justify-center m-4 scroll-mt-6">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
-        <h2 class="daisy-card-title text-2xl justify-center sm:hidden">Available Now!</h2>
+        <h2 class="daisy-card-title text-4xl justify-center sm:hidden">Available Now!</h2>
         <figure>
-            <img
-                    src="/assets/book-covers/book-cover4-beautifully-blended.jpg"
-                    alt="Beautifully Blended Book Cover"
-                    class="max-h-[640px]"
-            />
+            <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
+                <img
+                        src="/assets/book-covers/book-cover4-beautifully-blended.jpg"
+                        alt="Beautifully Blended Book Cover"
+                        class="max-h-[640px]"
+                />
+            </a>
         </figure>
-        <div class="daisy-card-body md:max-w-96 justify-center space-y-2">
-            <h2 class="daisy-card-title text-2xl hidden sm:flex">Available Now!</h2>
+        <div class="daisy-card-body max-w-md sm:max-w-lg lg:max-w-xl justify-center space-y-2 text-lg">
+            <h2 class="daisy-card-title text-4xl hidden sm:flex">Available Now!</h2>
             <p class="flex items-center grow-0">Weaving two families into one requires patience, love, and tenacious hope.
                 Beautifully Blended offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
             </p>
@@ -69,8 +74,8 @@
 
 <section class="flex justify-center m-4">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
-        <div class="daisy-card-body md:max-w-96 space-y-2 justify-center ">
-            <h2 class="daisy-card-title justify-center md:justify-start font-cursive text-5xl">Welcome, friend.</h2>
+        <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl space-y-2 justify-center text-lg"><!--THIS ONE-->
+            <h2 class="daisy-card-title justify-center font-cursive text-6xl md:justify-start ">Welcome, friend.</h2>
             <p class="flex grow-0">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
                 My remarriage had brought a new beginning after a messy divorce, but it also brought unique challenges and a hard-to-navigate road in our blended family.</p>
             <p class="flex grow-0">When my husband Randy and I joined our families, we didn’t know how to build loving relationships with one another.

@@ -65,3 +65,10 @@
 
 
 {@render children()}
+
+
+<footer class="footer">
+    <nav>
+        <h6></h6>
+    </nav>
+</footer>
