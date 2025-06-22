@@ -111,9 +111,9 @@
                     <a href="/books" class="link link-hover text-sm opacity-80 hover:opacity-100">
                         Books
                     </a>
-                    <a href="/free-resources" class="link link-hover text-sm opacity-80 hover:opacity-100">
-                        Free Resources
-                    </a>
+<!--                    <a href="/free-resources" class="link link-hover text-sm opacity-80 hover:opacity-100">-->
+<!--                        Free Resources-->
+<!--                    </a>-->
                 </div>
             </nav>
 
