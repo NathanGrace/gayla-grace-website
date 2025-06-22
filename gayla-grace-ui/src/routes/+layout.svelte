@@ -43,12 +43,15 @@
             <ul class="daisy-menu daisy-menu-horizontal daisy-menu-xl px-1">
                 <li><a href="./">Home</a></li>
                 <li><a href="/about">About</a></li>
+                <li><a href="/speaking">Speaking</a></li>
+                <li><a href="/books">Books</a></li>
 <!--                <li>-->
 <!--                    <details>-->
-<!--                        <summary>Parent</summary>-->
+<!--                        <summary>Media</summary>-->
 <!--                        <ul class="p-2">-->
-<!--                            <li><a>Submenu 1</a></li>-->
-<!--                            <li><a>Submenu 2</a></li>-->
+<!--                            <li><a>Podcasts</a></li>-->
+<!--                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
+<!--                            <li><a></a></li>-->
 <!--                        </ul>-->
 <!--                    </details>-->
 <!--                </li>-->

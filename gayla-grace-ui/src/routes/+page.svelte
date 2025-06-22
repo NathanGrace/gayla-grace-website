@@ -45,7 +45,7 @@
 
 <section id="beautifully-blended" class="flex justify-center mt-4 p-4 scroll-mt-6">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
-        <h2 class="daisy-card-title text-4xl justify-center sm:hidden">Available Now!</h2>
+        <h2 class="daisy-card-title text-4xl justify-center sm:hidden text-shadow-md text-accent">Available Now!</h2>
         <figure>
             <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
                 <img
