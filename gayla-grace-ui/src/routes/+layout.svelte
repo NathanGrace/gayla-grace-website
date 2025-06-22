@@ -19,6 +19,8 @@
                 <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-40 p-2 shadow">
                     <li><a href="./">Home</a></li>
                     <li><a href="/about">About</a></li>
+                    <li><a href="/speaking">Speaking</a></li>
+                    <li><a href="/books">Books</a></li>
 <!--                    <li>-->
 <!--                        <a>Parent</a>-->
 <!--                        <ul class="p-2">-->
