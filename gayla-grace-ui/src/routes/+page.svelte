@@ -45,7 +45,7 @@
 
 <section id="beautifully-blended" class="flex justify-center mt-4 p-4 scroll-mt-6">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
-        <h2 class="daisy-card-title text-4xl justify-center sm:hidden text-shadow-md text-accent">Available Now!</h2>
+        <h2 class="daisy-card-title font-lora italic text-4xl justify-center md:hidden text-shadow-md text-accent">Available Now!</h2>
         <figure>
             <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
                 <img
@@ -56,7 +56,7 @@
             </a>
         </figure>
         <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl justify-center space-y-2 text-lg">
-            <h2 class="daisy-card-title font-lora italic text-5xl hidden sm:flex text-shadow-md text-accent">Available Now!</h2>
+            <h2 class="daisy-card-title font-lora italic text-5xl hidden md:flex text-shadow-md text-accent">Available Now!</h2>
             <p class="grow-0">Weaving two families into one requires patience, love, and tenacious hope.
                 <i>Beautifully Blended</i> offers 101 devotions to encourage couples as they navigate the ups and downs of life as a stepfamily.
             </p>
@@ -73,8 +73,16 @@
 </section>
 
 
-<section class="flex justify-center mt-4 p-4">
+<section class="flex flex-col-reverse md:flex-row justify-center mt-4 p-4">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center overflow-x-hidden">
+        <figure>
+            <img
+                    src="/assets/gayla-grace-headshot-pic.jpg"
+                    alt="Gayla Grace"
+                    class="md:hidden min-w-[256px] max-w-full max-h-[768px] rounded-lg"
+            />
+        </figure>
+
         <div class="daisy-card-body max-w-lg md:max-w-sm lg:max-w-xl space-y-2 justify-center text-lg">
             <h2 class="daisy-card-title justify-center font-cursive text-6xl md:justify-start ">Welcome, friend.</h2>
             <p class="flex grow-0">As a young mom and stepmom thirty years ago, I longed for hope and encouragement.
@@ -87,11 +95,12 @@
                 <a href="/about" class="daisy-btn daisy-btn-soft daisy-btn-primary">More About Me</a>
             </div>
         </div>
+
         <figure>
             <img
                     src="/assets/gayla-grace-headshot-pic.jpg"
                     alt="Gayla Grace"
-                    class="min-w-[256px] max-w-full max-h-[768px] rounded-lg"
+                    class="hidden md:flex min-w-[256px] max-w-full max-h-[768px] rounded-lg"
             />
         </figure>
     </div>

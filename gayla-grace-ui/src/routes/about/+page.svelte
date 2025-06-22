@@ -42,7 +42,7 @@
 
 <section class="flex flex-col items-center justify-center mx-8 text-lg">
     <h2 class="flex flex-col text-4xl sm:text-6xl font-cursive font-bold text-shadow-lg">My Ministry Beginning</h2>
-    <div class="flex flex-col justify-center max-w-220 space-y-6 my-4">
+    <div class="flex flex-col justify-center max-w-220 space-y-4 my-4">
         <p>My passion for strong marriages and healthy relationships developed as a result of a messy divorce during my early adult years. I returned to school to study human behavior and earned a master's degree in Psychology and Counseling, driven by a desire to help others build resilient families that endure over time.</p>
         <p>I remarried into a blended family and pursued my passion for fostering healthy relationships within my new, complex family. But, our first decade of marriage was far more challenging than we had anticipated—blending our families didn't happen easily, and former spouses created conflict all too often.</p>
         <p>Over time, Randy and I learned how to parent together and work as a united team. We gained the respect of our stepchildren and began to accept each of them unconditionally. Love for one another grew, tension with our ex-spouses eased, and our marriage matured. Our family isn't perfect, but love has won out. </p>
