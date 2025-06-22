@@ -99,17 +99,20 @@
                     Quick Links
                 </h6>
                 <div class="flex flex-col space-y-2">
+                    <a href="./" class="link link-hover text-sm opacity-80 hover:opacity-100">
+                        Home
+                    </a>
                     <a href="/about" class="link link-hover text-sm opacity-80 hover:opacity-100">
                         About Me
-                    </a>
-                    <a href="/contact" class="link link-hover text-sm opacity-80 hover:opacity-100">
-                        Contact
                     </a>
                     <a href="/speaking" class="link link-hover text-sm opacity-80 hover:opacity-100">
                         Speaking
                     </a>
                     <a href="/books" class="link link-hover text-sm opacity-80 hover:opacity-100">
                         Books
+                    </a>
+                    <a href="/contact" class="link link-hover text-sm opacity-80 hover:opacity-100">
+                        Contact
                     </a>
 <!--                    <a href="/free-resources" class="link link-hover text-sm opacity-80 hover:opacity-100">-->
 <!--                        Free Resources-->
