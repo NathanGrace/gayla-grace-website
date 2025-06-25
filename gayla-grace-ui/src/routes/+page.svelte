@@ -16,7 +16,8 @@
 <section class="flex flex-col sm:flex-row items-center justify-center m-4">
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-primary m-4 max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
-            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>
+<!--            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Speaks</h2>-->
+            <h2 class="daisy-card-title font-cursive text-6xl">Gayla's Speaking</h2>
             <p>For more than ten years, Gayla has inspired audiences with a humble and transparent heart that draws people in to listen and learn.
                 Whether speaking on marriage, God's promises, or blended families, she has personal stories and nuggets of wisdom that captivate hearts.
                 Let's connect and plan the experience your group is seeking.</p>
@@ -28,7 +29,8 @@
 
     <div class="daisy-card flex-1 bg-base-500 w-full shadow-lg shadow-primary m-4 max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-primary rounded-md">
-            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Writes</h2>
+<!--            <h2 class="daisy-card-title font-cursive text-6xl">Gayla Writes</h2>-->
+            <h2 class="daisy-card-title font-cursive text-6xl">Gayla's Writing</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
                 Her most recent book,
                 <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">

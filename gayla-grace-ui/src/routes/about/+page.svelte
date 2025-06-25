@@ -24,7 +24,7 @@
 
 <figure class="flex justify-center m-8">
     <img
-            src="/assets/fillers/film-tape-mask.jpg"
+            src="/assets/fillers/film-tape-family-pic.png"
             alt="Family at wedding"
             class="w-full max-w-200 rounded-xl "
     />

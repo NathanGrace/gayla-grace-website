@@ -71,7 +71,7 @@
 
 {@render children()}
 
-<footer class="footer p-10 mt-2 bg-base-300">
+<footer class="footer p-10 bg-base-300">
     <div class="container mx-auto">
         <div class="border-t border-gray-700 mt-8 pt-4"></div>
         <!-- Mission Statement - Full width on mobile, first column on desktop -->
