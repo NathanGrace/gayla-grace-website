@@ -245,60 +245,65 @@
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">where to find Gayla</h2>
             <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Upcoming Speaking Events</p>
         </div>
-        <div class="mx-auto flex max-w-2xl flex-col items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row">
+        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
             <div class="w-full sm:max-w-lg sm:flex-auto">
                 <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
             </div>
-            <div class="sm:max-w-xs flex-auto justify-center items-center">
-                <ul class="-my-8 divide-y divide-gray-100">
+            <div class="sm:max-w-xs flex-auto justify-center items-center text-center sm:text-left">
+                <ul class="-my-8 divide-y divide-gray-300">
                     <li class="py-8">
                         <dl class="flex flex-wrap gap-x-3">
-                            <dd class="text-lg font-semibold tracking-tight text-gray-900">
+                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
                                 Cru 2025 Staff Conference
                             </dd>
-                            <dd class="mt-2 w-full  text-base/7 text-gray-600">Hosted by Campus Crusade for Christ</dd>
-                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">7/12 - 7/18 2025</dd>
-                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
-                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
-                                    <circle cx="1" cy="1" r="1" />
-                                </svg>
-                                Milwaikee, WI
-                            </dd>
+                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by Campus Crusade for Christ</dd>
+                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
+                                <dd class="text-lg font-semibold text-gray-900 ">7/12 - 7/18 2025</dd>
+                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
+                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    Milwaikee, WI
+                                </dd>
+                            </div>
                         </dl>
                     </li>
                     <li class="py-8">
                         <dl class="relative flex flex-wrap gap-x-3">
-                            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
                                 Summit on Stepfamiliy Ministry
                             </dd>
                             <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by FamilyLife</dd>
-                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">10/23 - 10/24 2025</dd>
-                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
-                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
-                                    <circle cx="1" cy="1" r="1" />
-                                </svg>
-                                Brentwood, TN
-                            </dd>
+                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
+                                <dd class="text-lg font-semibold text-gray-900">10/23 - 10/24 2025</dd>
+                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
+                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    Brentwood, TN
+                                </dd>
+                            </div>
                         </dl>
                     </li>
                     <li class="py-8">
                         <dl class="relative flex flex-wrap gap-x-3">
-                            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
                                 Christian Women's Conference
                             </dd>
                             <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by Cokesbury Church</dd>
-                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">11/14 - 11/16 2025</dd>
-                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
-                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
-                                    <circle cx="1" cy="1" r="1" />
-                                </svg>
-                                Sevierville, TN
-                            </dd>
+                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
+                                <dd class="text-lg font-semibold text-gray-900">11/14 - 11/16 2025</dd>
+                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
+                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    Sevierville, TN
+                                </dd>
+                            </div>
                         </dl>
                     </li>
                 </ul>
-                <!--                MAKE THIS BUTTON TAKE YOU TO ALL THE PREVIOUS SPEAKING EVENTS SHE'S DONE-->
-                <div class="mt-8 flex border-t border-gray-100 pt-8">
+                <div class="mt-8 flex justify-center sm:justify-start border-t border-gray-300 pt-8">
                     <a href="#" class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500">View all previous speaking events <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
