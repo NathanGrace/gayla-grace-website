@@ -2,7 +2,7 @@
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img src="/assets/speaking/speaking-image-2.jpg" alt="Gayla Grace Speaking" class="absolute inset-0 -z-10 sm:object-cover min-h-64 min-w-110 w-full" />
+    <img src="/assets/speaking/speaking-image-2-blank.png" alt="Gayla Grace Speaking" class="absolute inset-0 -z-10 sm:object-cover min-h-64 min-w-110 w-full" />
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
         <div class="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -238,6 +238,83 @@
                             </div>
                         </figcaption>
                     </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-base-500 py-32">
+    <div class="mx-auto max-w-7xl px-6 px-8">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-base/7 font-lora italic font-semibold text-accent">where to find Gayla</h2>
+            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance text-5xl">Upcoming Speaking Events</p>
+        </div>
+        <div class="mx-auto flex max-w-2xl flex-col items-end justify-center gap-16 mx-0 max-w-none flex-row">
+            <div class="w-full max-w-lg flex-auto">
+                <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover aspect-auto h-138" />
+            </div>
+            <div class="max-w-xs flex-auto justify-center items-center">
+                <ul class="-my-8 divide-y divide-gray-100">
+                    <li class="py-8">
+                        <dl class="flex flex-wrap gap-x-3">
+                            <dd class="text-lg font-semibold tracking-tight text-gray-900">
+                                <!--                                <a href="#">-->
+                                Cru 2025 Staff Conference
+                                <span class="absolute inset-0" aria-hidden="true"></span>
+                                <!--                                </a>-->
+                            </dd>
+                            <dd class="mt-2 w-full  text-base/7 text-gray-600">Hosted by Campus Crusade for Christ</dd>
+                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">7/12 - 7/18 2025</dd>
+                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
+                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
+                                    <circle cx="1" cy="1" r="1" />
+                                </svg>
+                                Milwaikee, WI
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="py-8">
+                        <dl class="relative flex flex-wrap gap-x-3">
+                            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                                <!--                                <a href="#">-->
+                                Summit on Stepfamiliy Ministry
+                                <span class="absolute inset-0" aria-hidden="true"></span>
+                                <!--                                </a>-->
+                            </dd>
+                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by FamilyLife</dd>
+                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">10/23 - 10/24 2025</dd>
+                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
+                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
+                                    <circle cx="1" cy="1" r="1" />
+                                </svg>
+                                Brentwood, TN
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="py-8">
+                        <dl class="relative flex flex-wrap gap-x-3">
+                            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+                                <!--                                <a href="#">-->
+                                Christian Women's Conference
+                                <span class="absolute inset-0" aria-hidden="true"></span>
+                                <!--                                </a>-->
+                            </dd>
+                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by Cokesbury Church</dd>
+                            <dd class="mt-4 text-base/7 font-semibold text-gray-900">11/14 - 11/16 2025</dd>
+                            <dd class="mt-4 flex items-center gap-x-3 text-base/7 text-gray-500">
+                                <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-300" aria-hidden="true">
+                                    <circle cx="1" cy="1" r="1" />
+                                </svg>
+                                Sevierville, TN
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+                <!--                MAKE THIS BUTTON TAKE YOU TO ALL THE PREVIOUS SPEAKING EVENTS SHE'S DONE-->
+                <div class="mt-8 flex border-t border-gray-100 pt-8">
+                    <a href="#" class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500">View all previous speaking events <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
         </div>
