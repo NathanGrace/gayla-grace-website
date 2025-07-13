@@ -246,16 +246,16 @@
 
 
 <div class="bg-base-500 py-32">
-    <div class="mx-auto max-w-7xl px-6 px-8">
+    <div class="mx-auto max-w-7xl px-6 sm:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">where to find Gayla</h2>
-            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance text-5xl">Upcoming Speaking Events</p>
+            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Upcoming Speaking Events</p>
         </div>
-        <div class="mx-auto flex max-w-2xl flex-col items-end justify-center gap-16 mx-0 max-w-none flex-row">
-            <div class="w-full max-w-lg flex-auto">
-                <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover aspect-auto h-138" />
+        <div class="mx-auto flex max-w-2xl flex-col items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row">
+            <div class="w-full sm:max-w-lg sm:flex-auto">
+                <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
             </div>
-            <div class="max-w-xs flex-auto justify-center items-center">
+            <div class="sm:max-w-xs flex-auto justify-center items-center">
                 <ul class="-my-8 divide-y divide-gray-100">
                     <li class="py-8">
                         <dl class="flex flex-wrap gap-x-3">
