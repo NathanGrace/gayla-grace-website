@@ -4,12 +4,13 @@
 <div class="py-24 sm:py-32" id="beautifully-blended">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div class="lg:pr-4 flex justify-center">
+            <div class="lg:pr-4 flex flex-col justify-center items-center">
+                <p class="lg:hidden font-lora italic font-semibold text-accent">My Latest Book!</p>
                 <img class="max-w-md w-full" src="/assets/book-covers/book-cover4-beautifully-blended.png" alt="beautifully blended book cover" />
             </div>
             <div>
                 <div class="text-base/7 text-gray-700 lg:max-w-lg">
-                    <p class="text-base/7 font-lora italic font-semibold text-accent">My Latest Book!</p>
+                    <p class="text-base/7 hidden lg:flex font-lora italic font-semibold text-accent">My Latest Book!</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Beautifully Blended</h1>
                     <p class="mt-2 w-full font-bold text-xl text-primary">101 Devotions to Encourage Stepfamily Couples</p>
                     <div class="max-w-xl">
