@@ -247,7 +247,7 @@
         </div>
         <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
             <div class="w-full sm:max-w-lg sm:flex-auto">
-                <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
+                <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="shadow-2xl shadow-secondary mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
             </div>
             <div class="sm:max-w-xs flex-auto justify-center items-center text-center sm:text-left">
                 <ul class="-my-8 divide-y divide-gray-300">
