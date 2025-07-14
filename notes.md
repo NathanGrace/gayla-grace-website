@@ -4,10 +4,7 @@ Priority List:
 Speaking Page: 
   - ASK FOR HIGHER QUALITY IMAGE FOR SPEAKING PAGE
   - consistent spacing
-  - Events Section - (from word doc + current site)
-  - new endorsements - ASK FOR THESE
-Books Page:
-  - make the whole thing
+  - Events Section - need a page or something for all the previous events she's done
 About Page:
   - Contact Form
 Media Page:
@@ -22,6 +19,7 @@ testimonials:
 FIGURE THIS OUT:
   - form on contact page
   - animations for wording appearing
+  - SEO optimization
 
 Older Speaking Notes:
   - women and blended family live stream (on youtube) - UPDATE: WAITING ON GRAPHIC FOR THIS
