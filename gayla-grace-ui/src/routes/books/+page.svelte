@@ -9,7 +9,7 @@
             </div>
             <div>
                 <div class="text-base/7 text-gray-700 lg:max-w-lg">
-                    <p class="text-base/7 font-semibold text-accent">My Latest Book!</p>
+                    <p class="text-base/7 font-lora italic font-semibold text-accent">My Latest Book!</p>
                     <h1 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Beautifully Blended</h1>
                     <p class="mt-2 w-full font-bold text-xl text-primary">101 Devotions to Encourage Stepfamily Couples</p>
                     <div class="max-w-xl">
@@ -17,24 +17,6 @@
                         <p class="mt-8">When it comes to forming a blended family, Gayla has seen it all, both in her own life as a stepparent and as a coach to blended families. Gayla reminds couples that God's grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together. Start your day with biblical truth and discover the grace God is ready to give your family.</p>
                     </div>
                 </div>
-<!--                <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">-->
-<!--                    <div>-->
-<!--                        <dt class="text-sm/6 font-semibold text-gray-600">Founded</dt>-->
-<!--                        <dd class="mt-2 text-3xl/10 font-bold tracking-tight text-gray-900">2021</dd>-->
-<!--                    </div>-->
-<!--                    <div>-->
-<!--                        <dt class="text-sm/6 font-semibold text-gray-600">Employees</dt>-->
-<!--                        <dd class="mt-2 text-3xl/10 font-bold tracking-tight text-gray-900">37</dd>-->
-<!--                    </div>-->
-<!--                    <div>-->
-<!--                        <dt class="text-sm/6 font-semibold text-gray-600">Countries</dt>-->
-<!--                        <dd class="mt-2 text-3xl/10 font-bold tracking-tight text-gray-900">12</dd>-->
-<!--                    </div>-->
-<!--                    <div>-->
-<!--                        <dt class="text-sm/6 font-semibold text-gray-600">Raised</dt>-->
-<!--                        <dd class="mt-2 text-3xl/10 font-bold tracking-tight text-gray-900">$25M</dd>-->
-<!--                    </div>-->
-<!--                </dl>-->
                 <div class="mt-10 flex">
                     <a class="font-semibold text-secondary hover:text-blue-400" href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
                         Available on Amazon <span aria-hidden="true">&rarr;</span>
@@ -44,6 +26,58 @@
         </div>
     </div>
 </div>
+
+<div class=" py-12">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-base/7 font-lora italic font-semibold text-accent">Testimonials</h2>
+            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Beautifully Blended</p>
+        </div>
+        <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
+            <div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                    <figure class="rounded-2xl shadow shadow-2xl p-8 text-sm/6">
+                        <blockquote class="text-gray-900">
+                            <p>“<i>Beautifully Blended</i> offers valuable insight into the unique dynamic of stepfamily life and heartfelt solutions to common struggles. If you want to thrive in your blended family relationships, read this book.”</p>
+                        </blockquote>
+                        <figcaption class="mt-6 flex items-center gap-x-4">
+                            <div>
+                                <div class="font-semibold text-gray-900">Dave and Ann Wilson</div>
+                                <div class="text-gray-600">hosts of the <i>FamilyLifeToday</i> podcast</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                    <figure class="rounded-2xl shadow shadow-2xl p-8 text-sm/6">
+                        <blockquote class="text-gray-900">
+                            <p>“Gayla Grace supplies exactly what's needed to encourage and inspire stepfamilies. Gayla understands what works and what doesn't work in stepfamilies.”</p>
+                        </blockquote>
+                        <figcaption class="mt-6 flex items-center gap-x-4">
+                            <div>
+                                <div class="font-semibold text-gray-900">Carol Boley</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                    <figure class="rounded-2xl shadow shadow-2xl p-8 text-sm/6">
+                        <blockquote class="text-gray-900">
+                            <p>“If you've said yes to stepparenting, this devotional is for you. This book will give you answers to your questions, strength for your soul, and grace for everyday challenges of life.”</p>
+                        </blockquote>
+                        <figcaption class="mt-6 flex items-center gap-x-4">
+                            <div>
+                                <div class="font-semibold text-gray-900">Carol Kent</div>
+                                <div class="text-gray-600">speaker and author of <i>He Holds My Hand: Experiencing God's Presense & Protection</i></div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -95,6 +129,26 @@
         </div>
     </div>
 </div>
+
+<div class="py-12">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="relative overflow-hidden bg-base-500 px-6 py-16 shadow-2xl shadow-secondary sm:rounded-3xl sm:px-10 md:px-12 lg:px-20">
+            <div class="relative mx-auto max-w-2xl lg:mx-0">
+                <figure>
+                    <blockquote class="mt-6 text-lg font-semibold sm:text-xl/8">
+                        <p>“Wish you had a support group of stepmoms you could call for encouragement, wisdom, and strength when you need it most? <i>Quiet Moments for the Stepmom Soul</i> is your virtual support group with trusted friends. So, grab a cup of coffee and let Gayla, Heather, and Laura share their hearts with you.”</p>
+                    </blockquote>
+                    <figcaption class="mt-6 text-base">
+                        <div class="font-semibold">Ron L. Deal</div>
+                        <div class="mt-1">bestselling author of <i>The Smart Stepfamily</i> and Director of FamilyLife Blended®</div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
