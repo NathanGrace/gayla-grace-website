@@ -25,28 +25,28 @@
     <p class="mt-2 text-4xl font-lora italic font-bold text-balance sm:text-5xl">Messages specifically crafted to the needs of your audience.</p>
 </div>
 <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center justify-center mx-auto max-w-6xl m-4 px-8">
-    <div class="daisy-card bg-base-500 w-full shadow-lg shadow-secondary max-w-[512px]">
+    <div class="daisy-card w-full shadow-lg shadow-secondary max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-secondary rounded-md">
             <h2 class="daisy-card-title font-lora italic text-3xl">Building Strong Relationships with Healthy Boundaries</h2>
             <p>Good boundaries create an opportunity for good bonding to occur in marriage and family relationships. But what's the difference between boundaries and walls? And how do we use boundaries well to strengthen relationships and not alienate those around us? We'll explore boundary-setting from the Bible and the model to follow, alongside personal anecdotes that illustrate a unique responsibility for each of us in healthy relationship-building.</p>
         </div>
     </div>
 
-    <div class="daisy-card bg-base-500 w-full shadow-lg shadow-secondary max-w-[512px]">
+    <div class="daisy-card w-full shadow-lg shadow-secondary max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-secondary rounded-md">
             <h2 class="daisy-card-title font-lora italic text-3xl">The Beauty of Forgiveness</h2>
             <p>When we've been hurt deeply by someone we love, forgiveness doesn't come easily. But God calls us to forgive, even when it's hard. Through personal stories and biblical truths, attendees will learn the why and the how of forgiveness and the freedom that follows.</p>
         </div>
     </div>
 
-    <div class="daisy-card bg-base-500 w-full shadow-lg shadow-secondary max-w-[512px]">
+    <div class="daisy-card w-full shadow-lg shadow-secondary max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-secondary rounded-md">
             <h2 class="daisy-card-title font-lora italic text-3xl">Trusting God in Every Season</h2>
             <p>Life is full of uncertainties. Sometimes, our circumstances feel overwhelming, and fear and doubt creep in. This keynote focuses on God's promises and how to find hope and encouragement for every season through God's Word and walking in step with Him, regardless of our circumstances.</p>
         </div>
     </div>
 
-    <div class="daisy-card bg-base-500 w-full shadow-lg shadow-secondary max-w-[512px]">
+    <div class="daisy-card w-full shadow-lg shadow-secondary max-w-[512px]">
         <div class="daisy-card-body text-base space-y-6 border-t-4 border-t-secondary rounded-md">
             <h2 class="daisy-card-title font-lora italic text-3xl">How to Create a Smart Stepfamily</h2>
             <p>Blended family dynamics can complicate everyday life, and uniting two families into one is challenging work. But healthy stepfamily relationships are possible. Attendees will learn how to create marital oneness while navigating unique variables, such as stepparenting, lingering grief, unrealistic expectations, co-parenting with a former spouse, disharmony, loyalty conflicts, holiday strife, and more.</p>
@@ -239,7 +239,7 @@
 </div>
 
 
-<div class="bg-base-500 py-32">
+<div class="py-32">
     <div class="mx-auto max-w-7xl px-6 sm:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">where to find Gayla</h2>
@@ -304,7 +304,7 @@
                     </li>
                 </ul>
                 <div class="mt-8 flex justify-center sm:justify-start border-t border-gray-300 pt-8">
-                    <a href="#" class="text-sm/6 font-semibold text-indigo-600 hover:text-indigo-500">View all previous speaking events <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#" class="text-sm/6 font-semibold text-primary hover:text-blue-400">View all previous speaking events <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
         </div>
