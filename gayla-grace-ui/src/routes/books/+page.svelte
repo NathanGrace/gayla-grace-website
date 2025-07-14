@@ -131,11 +131,11 @@
 </div>
 
 <div class="py-12">
-    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="relative overflow-hidden bg-base-500 px-6 py-16 shadow-2xl shadow-secondary sm:rounded-3xl sm:px-10 md:px-12 lg:px-20">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="relative overflow-hidden bg-base-500 px-6 py-16 shadow-2xl shadow-secondary rounded-3xl sm:px-10 md:px-12 lg:px-20">
             <div class="relative mx-auto max-w-2xl lg:mx-0">
                 <figure>
-                    <blockquote class="mt-6 text-lg font-semibold sm:text-xl/8">
+                    <blockquote class="mt-6 text-lg font-semibold text-xl/8">
                         <p>“Wish you had a support group of stepmoms you could call for encouragement, wisdom, and strength when you need it most? <i>Quiet Moments for the Stepmom Soul</i> is your virtual support group with trusted friends. So, grab a cup of coffee and let Gayla, Heather, and Laura share their hearts with you.”</p>
                     </blockquote>
                     <figcaption class="mt-6 text-base">
