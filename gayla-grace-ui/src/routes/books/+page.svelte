@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="py-24 sm:py-32 overflow-hidden" id="beautifully-blended">
+<div class="p-24 sm:p-32 overflow-hidden" id="beautifully-blended">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:pr-4 flex justify-center">
@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class=" py-12">
+<div class="p-12">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">Testimonials</h2>
@@ -79,7 +79,7 @@
 </div>
 
 
-<div class="py-24 sm:py-32">
+<div class="p-24 sm:p-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:pr-4 flex justify-center">
@@ -101,7 +101,7 @@
     </div>
 </div>
 
-<div class="py-24 sm:py-32">
+<div class="p-24 sm:p-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:pr-4 flex justify-center">
@@ -130,7 +130,7 @@
     </div>
 </div>
 
-<div class="py-12">
+<div class="p-12">
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="relative overflow-hidden bg-base-500 px-6 py-16 shadow-2xl shadow-secondary sm:rounded-3xl sm:px-10 md:px-12 lg:px-20">
             <div class="relative mx-auto max-w-2xl lg:mx-0">
@@ -150,7 +150,7 @@
 
 
 
-<div class="py-24 sm:py-32">
+<div class="p-24 sm:p-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:pr-4 flex justify-center">
