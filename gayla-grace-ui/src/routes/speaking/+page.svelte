@@ -2,7 +2,7 @@
 </script>
 
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img src="/assets/speaking/speaking-image-2-blank.png" alt="Gayla Grace Speaking" class="absolute inset-0 -z-10 sm:object-cover min-h-64 min-w-110 w-full" />
+    <img src="/assets/speaking/speaking-header.png" alt="Gayla Grace Speaking" class="absolute inset-0 -z-10 sm:object-cover min-h-64 min-w-110 w-full" />
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:pb-30">
             <h2 class="text-6xl font-bold text-white font-cursive sm:text-7xl lg:text-9xl text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Gayla's Speaking</h2>
