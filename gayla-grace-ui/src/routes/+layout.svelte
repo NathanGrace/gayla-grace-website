@@ -23,8 +23,8 @@
                     <li><a href="/speaking">Speaking</a></li>
                         <li>
                             <ul class="p-2">
-                                <li><a data-sveltekit-reload href="/speaking/#testimonials" class="">Testimonials</a></li>
                                 <li><a data-sveltekit-reload href="/speaking/#topics" class="">Topics</a></li>
+                                <li><a data-sveltekit-reload href="/speaking/#testimonials" class="">Testimonials</a></li>
                                 <li><a data-sveltekit-reload href="/speaking/#events" class="">Events</a></li>
                             </ul>
                         </li>
@@ -54,8 +54,8 @@
                         </svg>
                     </a>
                     <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-48 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                        <li><a data-sveltekit-reload href="/speaking/#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
                         <li><a data-sveltekit-reload href="/speaking/#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
+                        <li><a data-sveltekit-reload href="/speaking/#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
                         <li><a data-sveltekit-reload href="/speaking/#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
                     </ul>
                 </li>

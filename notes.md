@@ -2,7 +2,6 @@
 
 Priority List:
 Speaking Page: 
-  - ASK FOR HIGHER QUALITY IMAGE FOR SPEAKING PAGE
   - consistent spacing
   - Events Section - need a page or something for all the previous events she's done
 About Page:
