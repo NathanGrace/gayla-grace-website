@@ -20,14 +20,14 @@
                     <li><a href="./">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/speaking">Speaking</a></li>
+<!--                        <li>-->
+<!--                            <a>Parent</a>-->
+<!--                            <ul class="p-2">-->
+<!--                                <li><a>Submenu 1</a></li>-->
+<!--                                <li><a>Submenu 2</a></li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
                     <li><a href="/books">Books</a></li>
-<!--                    <li>-->
-<!--                        <a>Parent</a>-->
-<!--                        <ul class="p-2">-->
-<!--                            <li><a>Submenu 1</a></li>-->
-<!--                            <li><a>Submenu 2</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
             </div>
@@ -45,7 +45,18 @@
             <ul class="daisy-menu daisy-menu-horizontal daisy-menu-xl px-1">
                 <li><a href="./">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/speaking">Speaking</a></li>
+                <li>
+                    <details>
+                        <summary>Speaking</summary>
+                        <ul class="p-2">
+                            <li><a data-sveltekit-reload href="/speaking/">Gayla's Speaking</a></li>
+                            <li><a data-sveltekit-reload href="/speaking/#testimonials">Testimonials</a></li>
+                            <li><a data-sveltekit-reload href="/speaking/#topics">Topics</a></li> <!--check if there's any better wording to use for these-->
+                            <li><a data-sveltekit-reload href="/speaking/#events">Events</a></li>
+                        </ul>
+                    </details>
+                </li>
+                I have this center section of my navbar with links, and I want the Speaking link to be a drop down. How do I make the drop down only pop up when you hover of it?
                 <li><a href="/books">Books</a></li>
 <!--                <li>-->
 <!--                    <details>-->
@@ -79,7 +90,7 @@
             <aside class="md:hidden">
                 <h2 class="text-lg font-bold mb-4">Gayla Grace</h2>
                 <p class="text-sm opacity-80 max-w-xs mx-auto leading-relaxed">
-                    My mission is to equip and empower those seeking support in family and marriage relationships with faith-based tools that enable them to flourish.
+                    My mission is to equip and empower you in your marriage and family relationships with practical and faith-based tools that enable you to flourish.
                 </p>
             </aside>
         </div>

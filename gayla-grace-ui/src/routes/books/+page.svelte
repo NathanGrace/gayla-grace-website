@@ -31,7 +31,7 @@
 <div class=" py-12">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
-            <h2 class="text-base/7 font-lora italic font-semibold text-accent">Testimonials</h2>
+            <h2 class="text-base/7 font-lora italic font-semibold text-accent">Endorsements</h2>
             <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Beautifully Blended</p>
         </div>
         <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">

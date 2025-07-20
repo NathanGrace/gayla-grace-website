@@ -49,7 +49,7 @@
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
         <h2 class="daisy-card-title font-lora italic text-4xl justify-center md:hidden text-shadow-md text-accent">Available Now!</h2>
         <figure>
-            <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
+            <a href="/books/#beautifully-blended">
                 <img
                         src="/assets/book-covers/book-cover4-beautifully-blended.png"
                         alt="Beautifully Blended Book Cover"
@@ -67,8 +67,9 @@
                 Gayla reminds couples that God's grace offers new beginnings and second chances, and she urges couples to courageously seek grace as they face challenges together.
                 Start your day with biblical truth and discover the grace God is ready to give your family.
             </p>
-            <div class="daisy-card-actions">
-                <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1" class="daisy-btn daisy-btn-primary mt-2">Buy On Amazon!</a>
+            <div class="daisy-card-actions justify-start mt-2">
+                <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1" class="daisy-btn daisy-btn-primary">Buy On Amazon!</a>
+                <a href="/books/#beautifully-blended" class="daisy-btn daisy-btn-soft daisy-btn-primary">Learn more</a>
             </div>
         </div>
     </div>

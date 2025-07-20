@@ -20,7 +20,7 @@
 </section>
 
 
-<div class="mx-auto max-w-2xl text-center pt-24 pb-12 sm:pt-32">
+<div class="mx-auto max-w-2xl text-center pt-24 pb-12 sm:pt-32" id="topics">
     <h2 class="text-base/7 font-lora italic font-bold text-accent">Consider past speaking topics, or contact Gayla</h2>
     <p class="mt-2 text-4xl font-lora italic font-bold text-balance sm:text-5xl">Messages specifically crafted to the needs of your audience.</p>
 </div>
@@ -101,11 +101,11 @@
 
 
 
-<div class="relative isolate pt-24 pb-32">
+<div class="relative isolate pt-24 pb-32" id="testimonials">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">Testimonials</h2>
-            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">I have worked with thousands of amazing people</p>
+            <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">I have worked with some amazing people</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm/6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure class="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
@@ -239,10 +239,10 @@
 </div>
 
 
-<div class="py-32">
+<div class="py-32" id="events">
     <div class="mx-auto max-w-7xl px-6 sm:px-8">
         <div class="mx-auto max-w-2xl text-center">
-            <h2 class="text-base/7 font-lora italic font-semibold text-accent">where to find Gayla</h2>
+            <h2 class="text-base/7 font-lora italic font-semibold text-accent">Where to find Gayla</h2>
             <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Upcoming Speaking Events</p>
         </div>
         <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
