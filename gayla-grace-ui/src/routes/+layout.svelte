@@ -10,23 +10,24 @@
 </head>
 
 <header>
-    <nav class="daisy-navbar bg-base-300">
+        <nav class="daisy-navbar bg-base-300 fixed top-0 left-0 right-0 z-50">
+
         <div class="daisy-navbar-start">
             <div class="daisy-dropdown">
                 <div tabindex="0" role="button" class="daisy-btn daisy-btn-ghost sm:daisy-btn-lg lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
-                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-40 p-2 shadow">
+                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-50 p-2 shadow">
                     <li><a href="./">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/speaking">Speaking</a></li>
-<!--                        <li>-->
-<!--                            <a>Parent</a>-->
-<!--                            <ul class="p-2">-->
-<!--                                <li><a>Submenu 1</a></li>-->
-<!--                                <li><a>Submenu 2</a></li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
+                        <li>
+                            <ul class="p-2">
+                                <li><a data-sveltekit-reload href="/speaking/#testimonials" class="">Testimonials</a></li>
+                                <li><a data-sveltekit-reload href="/speaking/#topics" class="">Topics</a></li>
+                                <li><a data-sveltekit-reload href="/speaking/#events" class="">Events</a></li>
+                            </ul>
+                        </li>
                     <li><a href="/books">Books</a></li>
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
@@ -45,32 +46,55 @@
             <ul class="daisy-menu daisy-menu-horizontal daisy-menu-xl px-1">
                 <li><a href="./">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li>
-                    <details>
-                        <summary>Speaking</summary>
-                        <ul class="p-2">
-                            <li><a data-sveltekit-reload href="/speaking/">Gayla's Speaking</a></li>
-                            <li><a data-sveltekit-reload href="/speaking/#testimonials">Testimonials</a></li>
-                            <li><a data-sveltekit-reload href="/speaking/#topics">Topics</a></li> <!--check if there's any better wording to use for these-->
-                            <li><a data-sveltekit-reload href="/speaking/#events">Events</a></li>
-                        </ul>
-                    </details>
+                <li class="group relative">
+                    <a href="/speaking">
+                        Speaking
+                        <svg class="w-4 h-4 inline-block ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-48 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                        <li><a data-sveltekit-reload href="/speaking/#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
+                        <li><a data-sveltekit-reload href="/speaking/#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
+                        <li><a data-sveltekit-reload href="/speaking/#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
+                    </ul>
                 </li>
-                I have this center section of my navbar with links, and I want the Speaking link to be a drop down. How do I make the drop down only pop up when you hover of it?
                 <li><a href="/books">Books</a></li>
-<!--                <li>-->
-<!--                    <details>-->
-<!--                        <summary>Media</summary>-->
-<!--                        <ul class="p-2">-->
-<!--                            <li><a>Podcasts</a></li>-->
-<!--                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
-<!--                            <li><a></a></li>-->
-<!--                        </ul>-->
-<!--                    </details>-->
-<!--                </li>-->
                 <li><a href="/contact">Contact Me</a></li>
             </ul>
         </div>
+
+
+        <!-- This one gets displayed on big screens -->
+<!--        <div class="daisy-navbar-center hidden lg:flex">-->
+<!--            <ul class="daisy-menu daisy-menu-horizontal daisy-menu-xl px-1">-->
+<!--                <li><a href="./">Home</a></li>-->
+<!--                <li><a href="/about">About</a></li>-->
+<!--                <li>-->
+<!--                    <details>-->
+<!--                        <summary>Speaking</summary>-->
+<!--                        <ul class="p-2">-->
+<!--                            <li><a data-sveltekit-reload href="/speaking/">Gayla's Speaking</a></li>-->
+<!--                            <li><a data-sveltekit-reload href="/speaking/#testimonials">Testimonials</a></li>-->
+<!--                            <li><a data-sveltekit-reload href="/speaking/#topics">Topics</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
+<!--                            <li><a data-sveltekit-reload href="/speaking/#events">Events</a></li>-->
+<!--                        </ul>-->
+<!--                    </details>-->
+<!--                </li>-->
+<!--                <li><a href="/books">Books</a></li>-->
+<!--&lt;!&ndash;                <li>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <details>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <summary>Media</summary>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <ul class="p-2">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li><a>Podcasts</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li><a></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </details>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                <li><a href="/contact">Contact Me</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
 
 
         <div class="daisy-navbar-end">
@@ -80,7 +104,10 @@
 </header>
 
 
-{@render children()}
+<!-- Add padding to the body content to account for fixed navbar -->
+<div class="pt-16 sm:pt-20 lg:pt-24">
+    {@render children()}
+</div>
 
 <footer class="footer p-10 bg-base-300">
     <div class="container mx-auto">
