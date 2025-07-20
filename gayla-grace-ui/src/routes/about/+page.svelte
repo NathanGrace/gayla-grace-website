@@ -18,7 +18,7 @@
     <div class="flex flex-col justify-center max-w-220 space-y-4 mt-8">
         <p>I've been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids (I'm mom to three and stepmom to two), two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
         <p>Professionally, I'm a speaker and an author. I'm a full-time staff member with FamilyLife®, an international organization dedicated to spreading God's Word through the family as we seek to make every home a godly home. I regularly speak at their live events, in addition to podcasts, livestreams, and audio broadcasts. I also speak at women's retreats and conferences.</p>
-        <p>I'm the author of three books, including my most recent, <a href="/books/#beautifully-blended">
+        <p>I'm the author of three books, including my most recent, <a data-sveltekit-reload href="/books#beautifully-blended">
             <i class="hover:text-blue-400 text-primary">Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families</i>.
         </a></p>
     </div>
@@ -43,15 +43,6 @@
             class="w-full max-w-200 rounded-xl "
     />
 </figure>
-
-
-<!--<figure class="flex justify-center m-8">-->
-<!--    <img-->
-<!--            src="/assets/family/family-pic-wedding.jpg"-->
-<!--            alt="Family at wedding"-->
-<!--            class="px-10"-->
-<!--    />-->
-<!--</figure>-->
 
 
 <section class="flex flex-col items-center justify-center mx-8 text-lg">

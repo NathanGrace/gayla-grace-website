@@ -1604,9 +1604,10 @@ function Root($$payload, $$props) {
     Pyramid_0($$payload, {
       data: data_0,
       form,
+      params: page.params,
       children: ($$payload2) => {
         $$payload2.out += `<!---->`;
-        Pyramid_1($$payload2, { data: data_1, form });
+        Pyramid_1($$payload2, { data: data_1, form, params: page.params });
         $$payload2.out += `<!---->`;
       },
       $$slots: { default: true }
@@ -1616,7 +1617,7 @@ function Root($$payload, $$props) {
     $$payload.out += "<!--[!-->";
     const Pyramid_0 = constructors[0];
     $$payload.out += `<!---->`;
-    Pyramid_0($$payload, { data: data_0, form });
+    Pyramid_0($$payload, { data: data_0, form, params: page.params });
     $$payload.out += `<!---->`;
   }
   $$payload.out += `<!--]--> `;
@@ -1713,7 +1714,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "j2xkqe"
+  version_hash: "1e2w1fj"
 };
 async function get_hooks() {
   let handle;

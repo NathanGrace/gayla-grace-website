@@ -1,4 +1,6 @@
 import { B as BROWSER, a as assets, b as base, c as app_dir, p as public_env, s as safe_public_env, o as override, r as reset, d as read_implementation, e as options, g as get_hooks, f as set_private_env, h as prerendering, i as set_public_env, j as set_safe_public_env, k as set_read_implementation } from "./chunks/internal.js";
+import { json, text } from "@sveltejs/kit";
+import { HttpError, SvelteKitError, Redirect, ActionFailure } from "@sveltejs/kit/internal";
 import * as devalue from "devalue";
 import { m as make_trackable, d as disable_search, a as decode_params, r as readable, w as writable, v as validate_layout_server_exports, b as validate_layout_exports, c as validate_page_server_exports, e as validate_page_exports, n as normalize_path, f as resolve, g as decode_pathname, h as validate_server_exports } from "./chunks/exports.js";
 import { parse, serialize } from "cookie";
@@ -65,112 +67,6 @@ function with_event(event, fn) {
     request_event = null;
   }
 }
-class HttpError {
-  /**
-   * @param {number} status
-   * @param {{message: string} extends App.Error ? (App.Error | string | undefined) : App.Error} body
-   */
-  constructor(status, body2) {
-    this.status = status;
-    if (typeof body2 === "string") {
-      this.body = { message: body2 };
-    } else if (body2) {
-      this.body = body2;
-    } else {
-      this.body = { message: `Error: ${status}` };
-    }
-  }
-  toString() {
-    return JSON.stringify(this.body);
-  }
-}
-class Redirect {
-  /**
-   * @param {300 | 301 | 302 | 303 | 304 | 305 | 306 | 307 | 308} status
-   * @param {string} location
-   */
-  constructor(status, location) {
-    this.status = status;
-    this.location = location;
-  }
-}
-class SvelteKitError extends Error {
-  /**
-   * @param {number} status
-   * @param {string} text
-   * @param {string} message
-   */
-  constructor(status, text2, message) {
-    super(message);
-    this.status = status;
-    this.text = text2;
-  }
-}
-class ActionFailure {
-  /**
-   * @param {number} status
-   * @param {T} data
-   */
-  constructor(status, data) {
-    this.status = status;
-    this.data = data;
-  }
-}
-const DATA_SUFFIX = "/__data.json";
-const HTML_DATA_SUFFIX = ".html__data.json";
-function has_data_suffix(pathname) {
-  return pathname.endsWith(DATA_SUFFIX) || pathname.endsWith(HTML_DATA_SUFFIX);
-}
-function add_data_suffix(pathname) {
-  if (pathname.endsWith(".html")) return pathname.replace(/\.html$/, HTML_DATA_SUFFIX);
-  return pathname.replace(/\/$/, "") + DATA_SUFFIX;
-}
-function strip_data_suffix(pathname) {
-  if (pathname.endsWith(HTML_DATA_SUFFIX)) {
-    return pathname.slice(0, -HTML_DATA_SUFFIX.length) + ".html";
-  }
-  return pathname.slice(0, -DATA_SUFFIX.length);
-}
-const ROUTE_SUFFIX = "/__route.js";
-function has_resolution_suffix(pathname) {
-  return pathname.endsWith(ROUTE_SUFFIX);
-}
-function add_resolution_suffix(pathname) {
-  return pathname.replace(/\/$/, "") + ROUTE_SUFFIX;
-}
-function strip_resolution_suffix(pathname) {
-  return pathname.slice(0, -ROUTE_SUFFIX.length);
-}
-function json(data, init2) {
-  const body2 = JSON.stringify(data);
-  const headers2 = new Headers(init2?.headers);
-  if (!headers2.has("content-length")) {
-    headers2.set("content-length", encoder$3.encode(body2).byteLength.toString());
-  }
-  if (!headers2.has("content-type")) {
-    headers2.set("content-type", "application/json");
-  }
-  return new Response(body2, {
-    ...init2,
-    headers: headers2
-  });
-}
-const encoder$3 = new TextEncoder();
-function text(body2, init2) {
-  const headers2 = new Headers(init2?.headers);
-  if (!headers2.has("content-length")) {
-    const encoded = encoder$3.encode(body2);
-    headers2.set("content-length", encoded.byteLength.toString());
-    return new Response(encoded, {
-      ...init2,
-      headers: headers2
-    });
-  }
-  return new Response(body2, {
-    ...init2,
-    headers: headers2
-  });
-}
 function coalesce_to_error(err) {
   return err instanceof Error || err && /** @type {any} */
   err.name && /** @type {any} */
@@ -181,7 +77,7 @@ function coalesce_to_error(err) {
 }
 function normalize_error(error) {
   return (
-    /** @type {import('../runtime/control.js').Redirect | HttpError | SvelteKitError | Error} */
+    /** @type {import('../exports/internal/index.js').Redirect | HttpError | SvelteKitError | Error} */
     error
   );
 }
@@ -281,7 +177,7 @@ function redirect_response(status, location) {
 }
 function clarify_devalue_error(event, error) {
   if (error.path) {
-    return `Data returned from \`load\` while rendering ${event.route.id} is not serializable: ${error.message} (${error.path})`;
+    return `Data returned from \`load\` while rendering ${event.route.id} is not serializable: ${error.message} (${error.path}). If you need to serialize/deserialize custom types, use transport hooks: https://svelte.dev/docs/kit/hooks#Universal-hooks-transport.`;
   }
   if (error.path === "") {
     return `Data returned from \`load\` while rendering ${event.route.id} is not a plain object`;
@@ -388,6 +284,31 @@ function compact(arr) {
     /** @returns {val is NonNullable<T>} */
     (val) => val != null
   );
+}
+const DATA_SUFFIX = "/__data.json";
+const HTML_DATA_SUFFIX = ".html__data.json";
+function has_data_suffix(pathname) {
+  return pathname.endsWith(DATA_SUFFIX) || pathname.endsWith(HTML_DATA_SUFFIX);
+}
+function add_data_suffix(pathname) {
+  if (pathname.endsWith(".html")) return pathname.replace(/\.html$/, HTML_DATA_SUFFIX);
+  return pathname.replace(/\/$/, "") + DATA_SUFFIX;
+}
+function strip_data_suffix(pathname) {
+  if (pathname.endsWith(HTML_DATA_SUFFIX)) {
+    return pathname.slice(0, -HTML_DATA_SUFFIX.length) + ".html";
+  }
+  return pathname.slice(0, -DATA_SUFFIX.length);
+}
+const ROUTE_SUFFIX = "/__route.js";
+function has_resolution_suffix(pathname) {
+  return pathname.endsWith(ROUTE_SUFFIX);
+}
+function add_resolution_suffix(pathname) {
+  return pathname.replace(/\/$/, "") + ROUTE_SUFFIX;
+}
+function strip_resolution_suffix(pathname) {
+  return pathname.slice(0, -ROUTE_SUFFIX.length);
 }
 function is_action_json_request(event) {
   const accept = negotiate(event.request.headers.get("accept") ?? "*/*", [
@@ -3298,10 +3219,7 @@ class Server {
     this.#manifest = manifest;
   }
   /**
-   * @param {{
-   *   env: Record<string, string>;
-   *   read?: (file: string) => ReadableStream;
-   * }} opts
+   * @param {import('@sveltejs/kit').ServerInitOptions} opts
    */
   async init({ env, read }) {
     const prefixes = {
@@ -3318,7 +3236,34 @@ class Server {
     );
     set_safe_public_env(public_env2);
     if (read) {
-      set_read_implementation(read);
+      const wrapped_read = (file) => {
+        const result = read(file);
+        if (result instanceof ReadableStream) {
+          return result;
+        } else {
+          return new ReadableStream({
+            async start(controller) {
+              try {
+                const stream = await Promise.resolve(result);
+                if (!stream) {
+                  controller.close();
+                  return;
+                }
+                const reader = stream.getReader();
+                while (true) {
+                  const { done, value } = await reader.read();
+                  if (done) break;
+                  controller.enqueue(value);
+                }
+                controller.close();
+              } catch (error) {
+                controller.error(error);
+              }
+            }
+          });
+        }
+      };
+      set_read_implementation(wrapped_read);
     }
     await (init_promise ??= (async () => {
       try {

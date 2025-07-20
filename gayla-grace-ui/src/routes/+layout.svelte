@@ -75,7 +75,7 @@
         </div>
 
         <div class="daisy-navbar-end">
-            <a data-sveltekit-reload href="#beautifully-blended" class="daisy-btn daisy-btn-primary sm:daisy-btn-xl mr-2">My New Book!</a>
+            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary sm:daisy-btn-xl mr-2">My New Book!</a>
         </div>
     </nav>
 </header>

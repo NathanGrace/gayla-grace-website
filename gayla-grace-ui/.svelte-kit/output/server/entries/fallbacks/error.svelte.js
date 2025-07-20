@@ -1,5 +1,6 @@
 import "clsx";
 import { n as noop, g as getContext, p as pop, a as push } from "../../chunks/index.js";
+import "@sveltejs/kit/internal";
 import { w as writable } from "../../chunks/exports.js";
 const CONTENT_REGEX = /[&<]/g;
 function escape_html(value, is_attr) {
@@ -16,8 +17,6 @@ function escape_html(value, is_attr) {
   }
   return escaped + str.substring(last);
 }
-const SNAPSHOT_KEY = "sveltekit:snapshot";
-const SCROLL_KEY = "sveltekit:scroll";
 function create_updated_store() {
   const { set, subscribe } = writable(false);
   {
@@ -41,14 +40,6 @@ if (is_legacy) {
     url: new URL("https://example.com")
   });
 }
-function get(key, parse = JSON.parse) {
-  try {
-    return parse(sessionStorage[key]);
-  } catch {
-  }
-}
-get(SCROLL_KEY) ?? {};
-get(SNAPSHOT_KEY) ?? {};
 const stores = {
   updated: /* @__PURE__ */ create_updated_store()
 };
