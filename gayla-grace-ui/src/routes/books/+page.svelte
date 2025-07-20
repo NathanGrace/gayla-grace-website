@@ -57,6 +57,7 @@
                         <figcaption class="mt-6 flex items-center gap-x-4">
                             <div>
                                 <div class="font-semibold text-gray-900">Carol Boley</div>
+                                <div class="text-gray-600">coauthor of <i>But I'm NOT a Wicket Stopmother! Secrets of Successful Blended Families</i></div>
                             </div>
                         </figcaption>
                     </figure>
@@ -70,6 +71,32 @@
                             <div>
                                 <div class="font-semibold text-gray-900">Carol Kent</div>
                                 <div class="text-gray-600">speaker and author of <i>He Holds My Hand: Experiencing God's Presense & Protection</i></div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                    <figure class="rounded-2xl shadow shadow-2xl p-8 text-sm/6">
+                        <blockquote class="text-gray-900">
+                            <p>“Compact doses of grace for your blended family. That's what this books is. But though these devotionals may be easily consumed, they are dense, packed with practical wisdom that will point you in the right direction. Gayla Grace is a leading voice in the care of blended families and an expert in stepfamily relationships. Combined with her life experience of over 27 years as a mom, stepmom, and wife qualifies this resource as “one-of-a-kind.” I trust her voice, and so should you.”</p>
+                        </blockquote>
+                        <figcaption class="mt-6 flex items-center gap-x-4">
+                            <div>
+                                <div class="font-semibold text-gray-900">Ron Deal</div>
+                                <div class="text-gray-600">Director of FamilyLife Blended, stepfamily therapist, speaker, and author of over fifteen resources including the bestselling <i>Building Love Together in Blended Families</i> (with Gary Chapman) and <i>The Smart Stepfamily</i>.</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                    <figure class="rounded-2xl shadow shadow-2xl p-8 text-sm/6">
+                        <blockquote class="text-gray-900">
+                            <p>“<i>Beautifully Blended</i> is a must read. Gayla Grace shares her personal anecdotes while providing stepfamily advice that really works. Each devotion is designed to strengthen your faith and renew your resolve. It's realistic, comforting, and inspiring. This book will change the way you look at stepfamily life.”</p>
+                        </blockquote>
+                        <figcaption class="mt-6 flex items-center gap-x-4">
+                            <div>
+                                <div class="font-semibold text-gray-900">Brenda Ockun</div>
+                                <div class="text-gray-600">founder and publisher of <i>StepMom Magazine</i></div>
                             </div>
                         </figcaption>
                     </figure>
