@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="mt-10 flex">
-                    <a class="font-semibold text-secondary hover:text-blue-400" href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
+                    <a class="font-semibold text-primary hover:text-blue-400" href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
                         Available on Amazon <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="mt-10 flex">
-                    <a href="#beautifully-blended" class="text-base/7 font-semibold text-secondary hover:text-blue-400">Go back up to Beautifully Blended <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#beautifully-blended" class="text-base/7 font-semibold text-primary hover:text-blue-400">Go back up to Beautifully Blended <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <div class="mt-10 flex">
-                    <a class="font-semibold text-secondary hover:text-blue-400" href="https://www.amazon.com/Quiet-Moments-Stepmom-Soul-Encouragement/dp/1941733387?crid=T8D16IDYTHJO&dib=eyJ2IjoiMSJ9.EXZx1pbN8MNcVOmenv2Jdw.C_IMULA5DgilJdWOEeAzNW-pmAYlMcgRAH5mOf2iZ3A&dib_tag=se&keywords=quiet+moments+for+the+stepmom+soul&qid=1752454200&sprefix=%2Caps%2C146&sr=8-1">
+                    <a class="font-semibold text-primary hover:text-blue-400" href="https://www.amazon.com/Quiet-Moments-Stepmom-Soul-Encouragement/dp/1941733387?crid=T8D16IDYTHJO&dib=eyJ2IjoiMSJ9.EXZx1pbN8MNcVOmenv2Jdw.C_IMULA5DgilJdWOEeAzNW-pmAYlMcgRAH5mOf2iZ3A&dib_tag=se&keywords=quiet+moments+for+the+stepmom+soul&qid=1752454200&sprefix=%2Caps%2C146&sr=8-1">
                         Available on Amazon <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div class="mt-10 flex">
-                    <a class="font-semibold text-secondary hover:text-blue-400" href="https://www.amazon.com/Unwrapping-Gift-Stepfamily-Peace-Stepparents-ebook/dp/B00AETOHQK">
+                    <a class="font-semibold text-primary hover:text-blue-400" href="https://www.amazon.com/Unwrapping-Gift-Stepfamily-Peace-Stepparents-ebook/dp/B00AETOHQK">
                         Available on Amazon <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>

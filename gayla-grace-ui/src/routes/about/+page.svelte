@@ -8,7 +8,7 @@
         <p class="mt-4">Most importantly, I'm a follower of Jesus Christ who turns to God's Word and the Holy Spirit to find answers for life's questions.</p>
     </div>
     <img
-            src="/assets/gayla-grace-rocking-chair-image.jpg"
+            src="/assets/about/gayla-grace-rocking-chair-image.jpg"
             alt="Gayla Grace in a rocking chair"
             class="max-h-[512px] max-w-90 rounded-lg shadow-2xl shadow-secondary"
     />
@@ -18,7 +18,21 @@
     <div class="flex flex-col justify-center max-w-220 space-y-4 mt-8">
         <p>I've been married to my best friend, Randy, for 30 years. We are a big, messy, blended family with five adult kids (I'm mom to three and stepmom to two), two sons-in-law, two daughters-in-law, and two adorable granddaughters. </p>
         <p>Professionally, I'm a speaker and an author. I'm a full-time staff member with FamilyLife®, an international organization dedicated to spreading God's Word through the family as we seek to make every home a godly home. I regularly speak at their live events, in addition to podcasts, livestreams, and audio broadcasts. I also speak at women's retreats and conferences.</p>
-        <p>I'm the author of three books, including my most recent, <i>Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families.</i> </p>
+        <p>I'm the author of three books, including my most recent, <a href="/books/#beautifully-blended">
+            <i class="hover:text-blue-400 text-primary">Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families</i>.
+        </a></p>
+    </div>
+</section>
+
+<section class="flex flex-col sm:flex-row items-center justify-center mx-auto gap-6 my-16 max-w-220 px-8 border-t border-accent pt-8">
+    <img
+            src="/assets/about/family-life-blended-logo.png"
+            alt="Christian Women Speakers Logo"
+            class="w-40 sm:w-52 h-auto"
+    />
+    <div class="flex-1 space-y-4 text-center sm:text-left">
+        <p>I joined Family Life Blended, a ministry of FamilyLife, in 2019 to pursue God’s calling and carry out FamilyLife’s mission of “spreading God’s Word through the family, making every home a godly home.” I regularly speak for their events, podcasts, live streams, and other audio, and write for their newsletter, website, devotional books, and content emails. Learn about the ministry help we offer at FamilyLife. </p>
+        <p>Learn more: <a class="daisy-btn daisy-btn-link px-2 text-accent hover:text-blue-400" href="https://www.familylife.com/familylifeblended/blended-families/">Family Life Blended</a></p>
     </div>
 </section>
 

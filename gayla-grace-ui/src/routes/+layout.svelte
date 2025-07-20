@@ -23,9 +23,9 @@
                     <li><a href="/speaking">Speaking</a></li>
                         <li>
                             <ul class="p-2">
-                                <li><a data-sveltekit-reload href="/speaking/#topics" class="">Topics</a></li>
-                                <li><a data-sveltekit-reload href="/speaking/#testimonials" class="">Testimonials</a></li>
-                                <li><a data-sveltekit-reload href="/speaking/#events" class="">Events</a></li>
+                                <li><a data-sveltekit-reload href="/speaking#topics" class="">Topics</a></li>
+                                <li><a data-sveltekit-reload href="/speaking#testimonials" class="">Testimonials</a></li>
+                                <li><a data-sveltekit-reload href="/speaking#events" class="">Events</a></li>
                             </ul>
                         </li>
                     <li><a href="/books">Books</a></li>
@@ -54,51 +54,28 @@
                         </svg>
                     </a>
                     <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-48 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                        <li><a data-sveltekit-reload href="/speaking/#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
-                        <li><a data-sveltekit-reload href="/speaking/#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
-                        <li><a data-sveltekit-reload href="/speaking/#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
+                        <li><a data-sveltekit-reload href="/speaking#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
+                        <li><a data-sveltekit-reload href="/speaking#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
+                        <li><a data-sveltekit-reload href="/speaking#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
                     </ul>
                 </li>
                 <li><a href="/books">Books</a></li>
+<!--                <li>-->
+<!--                    <details>-->
+<!--                        <summary>Media</summary>-->
+<!--                        <ul class="p-2">-->
+<!--                            <li><a>Podcasts</a></li>-->
+<!--                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
+<!--                            <li><a></a></li>-->
+<!--                        </ul>-->
+<!--                    </details>-->
+<!--                </li>-->
                 <li><a href="/contact">Contact Me</a></li>
             </ul>
         </div>
 
-
-        <!-- This one gets displayed on big screens -->
-<!--        <div class="daisy-navbar-center hidden lg:flex">-->
-<!--            <ul class="daisy-menu daisy-menu-horizontal daisy-menu-xl px-1">-->
-<!--                <li><a href="./">Home</a></li>-->
-<!--                <li><a href="/about">About</a></li>-->
-<!--                <li>-->
-<!--                    <details>-->
-<!--                        <summary>Speaking</summary>-->
-<!--                        <ul class="p-2">-->
-<!--                            <li><a data-sveltekit-reload href="/speaking/">Gayla's Speaking</a></li>-->
-<!--                            <li><a data-sveltekit-reload href="/speaking/#testimonials">Testimonials</a></li>-->
-<!--                            <li><a data-sveltekit-reload href="/speaking/#topics">Topics</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
-<!--                            <li><a data-sveltekit-reload href="/speaking/#events">Events</a></li>-->
-<!--                        </ul>-->
-<!--                    </details>-->
-<!--                </li>-->
-<!--                <li><a href="/books">Books</a></li>-->
-<!--&lt;!&ndash;                <li>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <details>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <summary>Media</summary>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <ul class="p-2">&ndash;&gt;-->
-<!--&lt;!&ndash;                            <li><a>Podcasts</a></li>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                            <li><a></a></li>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </details>&ndash;&gt;-->
-<!--&lt;!&ndash;                </li>&ndash;&gt;-->
-<!--                <li><a href="/contact">Contact Me</a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-
-
         <div class="daisy-navbar-end">
-            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary sm:daisy-btn-xl mr-2">My New Book!</a>
+            <a data-sveltekit-reload href="#beautifully-blended" class="daisy-btn daisy-btn-primary sm:daisy-btn-xl mr-2">My New Book!</a>
         </div>
     </nav>
 </header>

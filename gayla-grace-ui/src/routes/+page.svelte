@@ -33,8 +33,8 @@
             <h2 class="daisy-card-title font-cursive text-6xl">Gayla's Writing</h2>
             <p>An avid reader since childhood, Gayla understands the power of words and how books can change lives.
                 Her most recent book,
-                <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1">
-                    <i class="hover:text-blue-400 text-[17px]">Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families</i>
+                <a data-sveltekit-reload href="/books#beautifully-blended">
+                    <i class="hover:text-blue-400 text-[17px] text-primary">Beautifully Blended: 101 Devotions to Encourage Couples in Blended Families</i>
                 </a>,
                 offers guidance and biblical truths to help couples build relationships in their stepfamily with love and grace.</p>
             <div class="daisy-card-actions justify-end">
@@ -44,12 +44,11 @@
     </div>
 </section>
 
-
-<section id="beautifully-blended" class="flex justify-center mt-4 p-4 scroll-mt-6">
+<section id="beautifully-blended" class="flex justify-center mt-4 p-4 scroll-mt-16 sm:scroll-mt-24 lg:scroll-mt-27">
     <div class="daisy-card daisy-card-lg md:daisy-card-side items-center">
         <h2 class="daisy-card-title font-lora italic text-4xl justify-center md:hidden text-shadow-md text-accent">Available Now!</h2>
         <figure>
-            <a href="/books/#beautifully-blended">
+            <a data-sveltekit-reload href="/books#beautifully-blended">
                 <img
                         src="/assets/book-covers/book-cover4-beautifully-blended.png"
                         alt="Beautifully Blended Book Cover"
@@ -69,7 +68,7 @@
             </p>
             <div class="daisy-card-actions justify-start mt-2">
                 <a href="https://www.amazon.com/Beautifully-Blended-Devotions-Encourage-Families/dp/1639529020?crid=1NGHZLXZYIQ0S&dib=eyJ2IjoiMSJ9.lMBq8elJTOMtrmCJy72xQg.RfQ-ndpSPjKBtBoS_SuZJ-2-RuIx7wiIAeCT3dh2pk4&dib_tag=se&keywords=beautifully+blended+gayla+grace&qid=1750045743&sprefix=beautifully+blended+gayla+grace%2Caps%2C95&sr=8-1" class="daisy-btn daisy-btn-primary">Buy On Amazon!</a>
-                <a href="/books/#beautifully-blended" class="daisy-btn daisy-btn-soft daisy-btn-primary">Learn more</a>
+                <a data-sveltekit-reload href="/books#beautifully-blended" class="daisy-btn daisy-btn-soft daisy-btn-primary">Learn more</a>
             </div>
         </div>
     </div>
