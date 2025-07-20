@@ -8,6 +8,9 @@ About Page:
   - Contact Form
 Media Page:
   - New Podcast Graphic will probably go here
+Books Page:
+  - I feel like this needs a header?
+  - need to add "Also on my reading list" section
 
 
 TOUCH UPS:
