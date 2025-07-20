@@ -24,7 +24,7 @@
     </div>
 </section>
 
-<section class="flex flex-col sm:flex-row items-center justify-center mx-auto gap-6 my-16 max-w-220 px-8 border-t border-accent pt-8">
+<section class="flex flex-col sm:flex-row items-center justify-center mx-auto gap-6 my-16 max-w-220 px-8 border-y border-accent py-8">
     <img
             src="/assets/about/family-life-blended-logo.png"
             alt="Christian Women Speakers Logo"
