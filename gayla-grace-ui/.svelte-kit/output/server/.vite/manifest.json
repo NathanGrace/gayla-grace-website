@@ -52,7 +52,7 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "css": [
-      "_app/immutable/assets/_layout.BWHOF48z.css"
+      "_app/immutable/assets/_layout.CUA7bMnF.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -91,10 +91,10 @@
     "src": "src/routes/contact/+page.svelte",
     "isEntry": true
   },
-  "src/routes/free-resources/+page.svelte": {
-    "file": "entries/pages/free-resources/_page.svelte.js",
-    "name": "entries/pages/free-resources/_page.svelte",
-    "src": "src/routes/free-resources/+page.svelte",
+  "src/routes/media/+page.svelte": {
+    "file": "entries/pages/media/_page.svelte.js",
+    "name": "entries/pages/media/_page.svelte",
+    "src": "src/routes/media/+page.svelte",
     "isEntry": true
   },
   "src/routes/speaking/+page.svelte": {

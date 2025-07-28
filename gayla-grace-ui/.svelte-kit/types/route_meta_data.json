@@ -13,7 +13,7 @@
 		"src/routes/contact/+page.server.ts",
 		"src/routes/+layout.ts"
 	],
-	"/free-resources": [
+	"/media": [
 		"src/routes/+layout.ts"
 	],
 	"/speaking": [

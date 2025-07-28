@@ -17,6 +17,7 @@ TOUCH UPS:
 testimonials:
   - consistent image sizes
   - use the same word spacing as Ron Deal's card (2/3 and 4/5 I think)
+  - add scroll-mt-xyz to all the # links that don't have it yet
 
 FIGURE THIS OUT:
   - form on contact page

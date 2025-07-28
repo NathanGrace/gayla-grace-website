@@ -1,7 +1,7 @@
 <script lang="ts">
-	import '../app.css';
+    import '../app.css';
 
-	let { children } = $props();
+    let { children } = $props();
 </script>
 
 <head>
@@ -10,33 +10,41 @@
 </head>
 
 <header>
-        <nav class="daisy-navbar bg-base-300 fixed top-0 left-0 right-0 z-50">
+    <nav class="daisy-navbar bg-base-300 fixed top-0 left-0 right-0 z-50">
 
         <div class="daisy-navbar-start">
             <div class="daisy-dropdown">
-                <div tabindex="0" role="button" class="daisy-btn daisy-btn-ghost sm:daisy-btn-lg lg:hidden">
+                <div tabindex="0" role="button" class="daisy-btn daisy-btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
-                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-50 p-2 shadow">
+                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-76 p-2 shadow">
                     <li><a href="./">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/speaking">Speaking</a></li>
-                        <li>
-                            <ul class="p-2">
-                                <li><a data-sveltekit-reload href="/speaking#topics" class="">Topics</a></li>
-                                <li><a data-sveltekit-reload href="/speaking#testimonials" class="">Testimonials</a></li>
-                                <li><a data-sveltekit-reload href="/speaking#events" class="">Events</a></li>
-                            </ul>
-                        </li>
+                    <li>
+                        <ul class="p-2">
+                            <li><a data-sveltekit-reload href="/speaking#topics" class="">Topics</a></li>
+                            <li><a data-sveltekit-reload href="/speaking#testimonials" class="">Testimonials</a></li>
+                            <li><a data-sveltekit-reload href="/speaking#events" class="">Events</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/books">Books</a></li>
+                    <li><a href="/media">Media</a></li>
+                    <li>
+                        <ul class="p-2">
+                            <li><a data-sveltekit-reload href="/media#podcast" class="">Podcast</a></li>
+                            <li><a data-sveltekit-reload href="/media#featured-presentation" class="">Featured Presentation</a></li>
+                            <li><a data-sveltekit-reload href="/media#video-interviews" class="">Video Interviews</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
             </div>
-            <a href="./" class="inline-flex">
+            <a href="./" class="daisy-btn daisy-btn-ghost flex-shrink-0 min-w-36 lg:min-w-44 xl:min-w-52 h-16 xl:h-26 p-2">
                 <img
                         src="/assets/gayla-grace-logo-tangerine-font.png"
                         alt="Gayla Grace Logo"
-                        class="daisy-btn daisy-btn-lg sm:daisy-btn-xl daisy-btn-ghost min-w-44 sm:min-h-20"
+                        class="w-full h-full object-contain"
                 />
             </a>
         </div>
@@ -53,36 +61,39 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </a>
-                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-48 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-50 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                         <li><a data-sveltekit-reload href="/speaking#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
                         <li><a data-sveltekit-reload href="/speaking#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
                         <li><a data-sveltekit-reload href="/speaking#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
                     </ul>
                 </li>
                 <li><a href="/books">Books</a></li>
-<!--                <li>-->
-<!--                    <details>-->
-<!--                        <summary>Media</summary>-->
-<!--                        <ul class="p-2">-->
-<!--                            <li><a>Podcasts</a></li>-->
-<!--                            <li><a>Video Interviews</a></li> &lt;!&ndash;check if there's any better wording to use for these&ndash;&gt;-->
-<!--                            <li><a></a></li>-->
-<!--                        </ul>-->
-<!--                    </details>-->
-<!--                </li>-->
+                <li class="group relative">
+                    <a href="/media">
+                        Media
+                        <svg class="w-4 h-4 inline-block ml-1 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-64 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                        <li><a data-sveltekit-reload href="/media#podcast" class="block px-4 py-2 hover:bg-base-200 rounded">Podcast</a></li>
+                        <li><a data-sveltekit-reload href="/media#featured-presentation" class="block px-4 py-2 hover:bg-base-200 rounded">Featured Presentation</a></li>
+                        <li><a data-sveltekit-reload href="/media#video-interviews" class="block px-4 py-2 hover:bg-base-200 rounded">Video Interviews</a></li>
+                    </ul>
+                </li>
                 <li><a href="/contact">Contact Me</a></li>
             </ul>
         </div>
 
         <div class="daisy-navbar-end">
-            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary sm:daisy-btn-xl mr-2">My New Book!</a>
+            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary daisy-btn-sm sm:daisy-btn-lg xl:daisy-btn-xl mr-2">My New Book!</a>
         </div>
     </nav>
 </header>
 
 
 <!-- Add padding to the body content to account for fixed navbar -->
-<div class="pt-16 sm:pt-20 lg:pt-24">
+<div class="pt-16 sm:pt-20 2xl:pt-28">
     {@render children()}
 </div>
 
@@ -129,9 +140,9 @@
                     <a href="/contact" class="link link-hover text-sm opacity-80 hover:opacity-100">
                         Contact
                     </a>
-<!--                    <a href="/free-resources" class="link link-hover text-sm opacity-80 hover:opacity-100">-->
-<!--                        Free Resources-->
-<!--                    </a>-->
+                    <a href="/media" class="link link-hover text-sm opacity-80 hover:opacity-100">
+                        Free Resources
+                    </a>
                 </div>
             </nav>
 
@@ -174,7 +185,7 @@
                         <a href="https://www.pinterest.com/gaylagrace/" class="daisy-btn daisy-btn-ghost daisy-btn-sm md:daisy-btn-md daisy-btn-circle hover:daisy-btn-primary" aria-label="Pinterest">
                             <svg class="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 fill-current" viewBox="0 0 24 24">
                                 <path
-                                        d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.096.119.112.219.083.402-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.163-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.749-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24c6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z"
+                                        d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.096.119.112.219.083.402-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.163-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.749-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24c6.624 0 11.990-5.367 11.990-11.987C24.007 5.367 18.641.001 12.017.001z"
                                 />
                             </svg>
                         </a>

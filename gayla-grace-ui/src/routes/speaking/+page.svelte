@@ -304,7 +304,7 @@
                     </li>
                 </ul>
                 <div class="mt-8 flex justify-center sm:justify-start border-t border-gray-300 pt-8">
-                    <a href="#" class="text-sm/6 font-semibold text-primary hover:text-blue-400">View all previous speaking events <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#" class="text-sm/6 font-semibold text-primary hover:text-blue-400">View all previous speaking events <b>(coming soon)</b> <span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
         </div>
