@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Gayla Grace | Author & Speaker | Encouragement for your Faith journey</title>
+    <title>Gayla Grace | Author & Speaker | Encouragement for your Faith Journey</title>
     <meta name="description" content="Author & speaker who is equipping, empowering, and encouraging those seeking support in family and marriage relationships with faith-based tools that enable them to flourish." />
 </svelte:head>
 
