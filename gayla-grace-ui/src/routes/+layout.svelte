@@ -17,7 +17,7 @@
                 <div tabindex="0" role="button" class="daisy-btn daisy-btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
-                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content bg-base-100 rounded-box z-1 mt-3 w-76 p-2 shadow">
+                <ul class="daisy-menu daisy-menu-xl daisy-dropdown-content text-base-200 bg-accent rounded-box z-1 mt-3 w-76 p-2 shadow">
                     <li><a href="./">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/speaking">Speaking</a></li>
@@ -61,10 +61,10 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </a>
-                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-50 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                        <li><a data-sveltekit-reload href="/speaking#topics" class="block px-4 py-2 hover:bg-base-200 rounded">Topics</a></li>
-                        <li><a data-sveltekit-reload href="/speaking#testimonials" class="block px-4 py-2 hover:bg-base-200 rounded">Testimonials</a></li>
-                        <li><a data-sveltekit-reload href="/speaking#events" class="block px-4 py-2 hover:bg-base-200 rounded">Events</a></li>
+                    <ul class="absolute top-full left-0 bg-accent text-base-200 rounded-box shadow-lg p-2 w-50 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                        <li><a data-sveltekit-reload href="/speaking#topics" class="block px-4 py-2 hover:bg-secondary rounded">Topics</a></li>
+                        <li><a data-sveltekit-reload href="/speaking#testimonials" class="block px-4 py-2 hover:bg-secondary rounded">Testimonials</a></li>
+                        <li><a data-sveltekit-reload href="/speaking#events" class="block px-4 py-2 hover:bg-secondary rounded">Events</a></li>
                     </ul>
                 </li>
                 <li><a href="/books">Books</a></li>
@@ -75,10 +75,10 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </a>
-                    <ul class="absolute top-full left-0 bg-base-100 rounded-box shadow-lg p-2 w-64 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                        <li><a data-sveltekit-reload href="/media#podcast" class="block px-4 py-2 hover:bg-base-200 rounded">Podcast</a></li>
-                        <li><a data-sveltekit-reload href="/media#featured-presentation" class="block px-4 py-2 hover:bg-base-200 rounded">Featured Presentation</a></li>
-                        <li><a data-sveltekit-reload href="/media#video-interviews" class="block px-4 py-2 hover:bg-base-200 rounded">Video Interviews</a></li>
+                    <ul class="absolute top-full left-0 bg-accent text-base-200 rounded-box shadow-lg p-2 w-64 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                        <li><a data-sveltekit-reload href="/media#podcast" class="block px-4 py-2 hover:bg-secondary rounded">Podcast</a></li>
+                        <li><a data-sveltekit-reload href="/media#featured-presentation" class="block px-4 py-2 hover:bg-secondary rounded">Featured Presentation</a></li>
+                        <li><a data-sveltekit-reload href="/media#video-interviews" class="block px-4 py-2 hover:bg-secondary rounded">Video Interviews</a></li>
                     </ul>
                 </li>
                 <li><a href="/contact">Contact Me</a></li>
