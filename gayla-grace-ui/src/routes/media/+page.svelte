@@ -137,7 +137,7 @@
                     <iframe
                             class="w-full h-full"
                             src="https://www.youtube.com/embed/0iOKoPAZAcU"
-                            title="Embracing the Firsts"
+                            title="Embracing Second Experiences"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="p-6">
                     <h3 class="text-lg font-semibold text-slate-900 group-hover:text-slate-700">
-                        Embracing the Firsts
+                        Embracing Second Experiences
                     </h3>
                 </div>
             </div>
