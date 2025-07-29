@@ -252,23 +252,6 @@
             <div class="sm:max-w-xs flex-auto justify-center items-center text-center sm:text-left">
                 <ul class="-my-8 divide-y divide-gray-300">
                     <li class="py-8">
-                        <dl class="flex flex-wrap gap-x-3">
-                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
-                                Cru 2025 Staff Conference
-                            </dd>
-                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by Campus Crusade for Christ</dd>
-                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
-                                <dd class="text-lg font-semibold text-gray-900 ">7/12 - 7/18 2025</dd>
-                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
-                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
-                                        <circle cx="1" cy="1" r="1" />
-                                    </svg>
-                                    Milwaikee, WI
-                                </dd>
-                            </div>
-                        </dl>
-                    </li>
-                    <li class="py-8">
                         <dl class="relative flex flex-wrap gap-x-3">
                             <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
                                 Summit on Stepfamiliy Ministry
@@ -298,6 +281,23 @@
                                         <circle cx="1" cy="1" r="1" />
                                     </svg>
                                     Sevierville, TN
+                                </dd>
+                            </div>
+                        </dl>
+                    </li>
+                    <li class="py-8">
+                        <dl class="flex flex-wrap gap-x-3">
+                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
+                                Blended & Blessed
+                            </dd>
+                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by FamilyLife</dd>
+                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
+                                <dd class="text-lg font-semibold text-gray-900 ">4/18 2026</dd>
+                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
+                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    Oklahoma City, OK
                                 </dd>
                             </div>
                         </dl>

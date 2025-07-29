@@ -3,7 +3,9 @@
 Priority List:
 Speaking Page: 
   - consistent spacing
-  - Events Section - need a page or something for all the previous events she's done
+  - Events Section 
+    - the speaking events section needs to be able to fit more than 3 at a time
+    - need a page or something for all the previous events she's done
 About Page:
   - Contact Form
 Media Page:
