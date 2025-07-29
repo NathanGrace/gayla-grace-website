@@ -6,7 +6,7 @@
 
     <div class="daisy-hero-content text-neutral-content text-left shrink-1 ">
         <div class="max-w-[880px]">
-            <h1 class="font-lora italic text-3xl sm:text-4xl mr-56 sm:mr-84 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you flourish in your faith and your family</h1>
+            <h1 class="font-lora italic text-3xl sm:text-4xl mr-48 sm:mr-74 md:mr-84 text-shadow-[0_0_10px_black,_0_0_20px_black,_0_0_40px_black]">Helping you flourish in your faith and your family</h1>
             <a href="/about" class="mt-4 daisy-btn daisy-btn-primary sm:daisy-btn-lg">Learn More</a>
         </div>
     </div>
