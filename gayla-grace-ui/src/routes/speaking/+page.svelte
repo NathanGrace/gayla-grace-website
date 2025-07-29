@@ -254,9 +254,9 @@
                     <li class="py-8">
                         <dl class="relative flex flex-wrap gap-x-3">
                             <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
-                                Summit on Stepfamiliy Ministry
+                                Summit on Stepfamily Ministry
                             </dd>
-                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by FamilyLife</dd>
+                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by FamilyLife®</dd>
                             <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
                                 <dd class="text-lg font-semibold text-gray-900">10/23 - 10/24 2025</dd>
                                 <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
@@ -290,7 +290,7 @@
                             <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
                                 Blended & Blessed
                             </dd>
-                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by FamilyLife</dd>
+                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by FamilyLife®</dd>
                             <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
                                 <dd class="text-lg font-semibold text-gray-900 ">4/18 2026</dd>
                                 <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
