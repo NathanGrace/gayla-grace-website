@@ -20,7 +20,7 @@
 </section>
 
 
-<div class="mx-auto max-w-2xl text-center pt-24 pb-12 sm:pt-32" id="topics">
+<div class="mx-auto max-w-2xl text-center py-16" id="topics">
     <h2 class="text-base/7 font-lora italic font-bold text-accent">Consider past speaking topics, or contact Gayla</h2>
     <p class="mt-2 text-4xl font-lora italic font-bold text-balance sm:text-5xl">Messages specifically crafted to the needs of your audience.</p>
 </div>
@@ -247,7 +247,7 @@
 </div>
 
 
-<div class="py-32" id="events">
+<div class="pb-32" id="events">
     <div class="mx-auto max-w-7xl px-6 sm:px-8">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">Where to find Gayla</h2>
