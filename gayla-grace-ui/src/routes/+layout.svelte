@@ -40,7 +40,7 @@
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
             </div>
-            <a href="./" class="daisy-btn daisy-btn-ghost flex-shrink-0 flex-grow-0 max-w-fit min-w-24 sm:min-w-36 lg:min-w-44 xl:min-w-52 h-12 sm:h-16 lg:h-20 xl:h-24 p-2">
+            <a href="./" class="daisy-btn daisy-btn-ghost align-left flex-shrink-0 flex-grow-0 max-w-fit min-w-24 sm:min-w-36 lg:min-w-44 xl:min-w-52 h-12 sm:h-16 lg:h-20 xl:h-24 p-2">
                 <img
                         src="/assets/gayla-grace-logo-tangerine-font.png"
                         alt="Gayla Grace Logo"
