@@ -40,7 +40,7 @@
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
             </div>
-            <a href="./" class="daisy-btn daisy-btn-ghost flex-shrink-0 min-w-24 sm:min-w-36 lg:min-w-44 xl:min-w-52 h-12 sm:h-16 xl:h-26 p-2">
+            <a href="./" class="daisy-btn daisy-btn-ghost flex-shrink-0 min-w-24 sm:min-w-36 lg:min-w-44 xl:min-w-52 h-12 sm:h-16 lg:h-20 xl:h-24 p-2">
                 <img
                         src="/assets/gayla-grace-logo-tangerine-font.png"
                         alt="Gayla Grace Logo"
@@ -86,14 +86,14 @@
         </div>
 
         <div class="daisy-navbar-end">
-            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary daisy-btn-sm sm:daisy-btn-lg xl:daisy-btn-xl mr-2">My New Book!</a>
+            <a data-sveltekit-reload href="./#beautifully-blended" class="daisy-btn daisy-btn-primary daisy-btn-sm sm:daisy-btn-md xl:daisy-btn-xl mr-2">My New Book!</a>
         </div>
     </nav>
 </header>
 
 
 <!-- Add padding to the body content to account for fixed navbar -->
-<div class="pt-16 sm:pt-20 2xl:pt-28">
+<div class="pt-16 sm:pt-20 lg:pt-24 2xl:pt-28">
     {@render children()}
 </div>
 
