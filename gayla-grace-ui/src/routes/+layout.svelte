@@ -4,10 +4,10 @@
     let { children } = $props();
 </script>
 
-<head>
-    <title>Gayla Grace</title>
-    <!-- There's already a head tag in the app.html, might need to put stuff there instead! -->
-</head>
+<svelte:head>
+    <title>Gayla Grace | Author & Speaker | Encouragement for your Faith journey</title>
+    <meta name="description" content="Author & speaker who is equipping, empowering, and encouraging those seeking support in family and marriage relationships with faith-based tools that enable them to flourish." />
+</svelte:head>
 
 <header>
     <nav class="daisy-navbar bg-base-300 fixed top-0 left-0 right-0 z-50">
