@@ -20,7 +20,7 @@
 
 
 <!--        <p class="mt-4">To work with Gayla, please contact her using the form below or call her at 501-269-6861</p>-->
-        <p class="mt-4">To work with Gayla, please contact her via email at gayla.grace@familylife.com or call her at 501-269-6861</p>
+        <p class="mt-4">To work with Gayla, please contact her via email at gayla.grace@familylife.com</p>
     </div>
 </div>
 

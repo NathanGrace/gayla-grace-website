@@ -253,7 +253,8 @@
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">Where to find Gayla</h2>
             <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Upcoming Speaking Events</p>
         </div>
-        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
+        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-start justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
+<!--        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-start justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">-->
             <div class="w-full sm:max-w-lg sm:flex-auto">
                 <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="shadow-2xl shadow-secondary mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
             </div>
@@ -272,6 +273,23 @@
                                         <circle cx="1" cy="1" r="1" />
                                     </svg>
                                     Brentwood, TN
+                                </dd>
+                            </div>
+                        </dl>
+                    </li>
+                    <li class="py-8">
+                        <dl class="relative flex flex-wrap gap-x-3">
+                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
+                                Christian Women's Event
+                            </dd>
+                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by Bayou Meto Baptist Church</dd>
+                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
+                                <dd class="text-lg font-semibold text-gray-900">11/01 2025</dd>
+                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
+                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
+                                        <circle cx="1" cy="1" r="1" />
+                                    </svg>
+                                    Jacksonville, AR
                                 </dd>
                             </div>
                         </dl>
