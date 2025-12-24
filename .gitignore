@@ -16,6 +16,8 @@ node_modules/
 gayla-grace-ui/.svelte-kit/
 gayla-grace-ui/build/
 /package
+/.svelte-kit
+/build
 
 # OS
 .DS_Store
@@ -40,3 +42,5 @@ out/
 
 tmp/
 temp/
+
+notes.md
