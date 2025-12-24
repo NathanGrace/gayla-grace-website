@@ -61,7 +61,7 @@
 
             <!-- Right Column - Image -->
             <div class="lg:col-span-3 rounded-lg overflow-hidden shadow-lg">
-                <img src="/assets/media/podcast-graphic.png"
+                <img src="/assets/media/podcast-graphic2.png"
                      alt="Women & Blended Families Livestream"
                      class="w-full h-auto" />
             </div>
