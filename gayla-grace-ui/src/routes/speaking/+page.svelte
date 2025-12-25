@@ -253,7 +253,7 @@
             <h2 class="text-base/7 font-lora italic font-semibold text-accent">Where to find Gayla</h2>
             <p class="mt-2 text-4xl font-lora italic font-semibold text-balance sm:text-5xl">Upcoming Speaking Events</p>
         </div>
-        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-start justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
+        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-end justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">
 <!--        <div class="mx-auto flex max-w-2xl flex-col items-center sm:items-start justify-center gap-16 sm:mx-0 sm:max-w-none sm:flex-row mt-8">-->
             <div class="w-full sm:max-w-lg sm:flex-auto">
                 <img src="/assets/speaking/Gayla-Grace-2-crop.jpg" alt="Gayla Speaking On Stage" class="shadow-2xl shadow-secondary mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover sm:aspect-auto sm:h-138" />
@@ -261,56 +261,23 @@
             <div class="sm:max-w-xs flex-auto justify-center items-center text-center sm:text-left">
                 <ul class="-my-8 divide-y divide-gray-300">
                     <li class="py-8">
-                        <dl class="relative flex flex-wrap gap-x-3">
+                        <dl class="flex flex-wrap gap-x-3">
                             <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
-                                Summit on Stepfamily Ministry
+                                International Congress of Families
                             </dd>
-                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by FamilyLife®</dd>
+                            <dd class="mt-2 w-full text-base/7 text-gray-600">Hosted by International Organization for the Family</dd>
                             <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
-                                <dd class="text-lg font-semibold text-gray-900">10/23 - 10/24 2025</dd>
+                                <dd class="text-lg font-semibold text-gray-900 ">2/26-28 2026</dd>
                                 <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
                                     <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
                                         <circle cx="1" cy="1" r="1" />
                                     </svg>
-                                    Brentwood, TN
+                                    Monterrey, Mexico
                                 </dd>
                             </div>
                         </dl>
                     </li>
-                    <li class="py-8">
-                        <dl class="relative flex flex-wrap gap-x-3">
-                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
-                                Christian Women's Event
-                            </dd>
-                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by Bayou Meto Baptist Church</dd>
-                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
-                                <dd class="text-lg font-semibold text-gray-900">11/01 2025</dd>
-                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
-                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
-                                        <circle cx="1" cy="1" r="1" />
-                                    </svg>
-                                    Jacksonville, AR
-                                </dd>
-                            </div>
-                        </dl>
-                    </li>
-                    <li class="py-8">
-                        <dl class="relative flex flex-wrap gap-x-3">
-                            <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
-                                Christian Women's Conference
-                            </dd>
-                            <dd class="mt-2 w-full flex-none text-base/7 text-gray-600">Hosted by Cokesbury Church</dd>
-                            <div class="mt-4 w-full flex flex-col sm:flex-row sm:gap-x-3 items-center sm:items-start">
-                                <dd class="text-lg font-semibold text-gray-900">11/14 - 11/16 2025</dd>
-                                <dd class="flex items-center gap-x-3 text-base/7 text-gray-500">
-                                    <svg viewBox="0 0 2 2" class="size-0.5 flex-none fill-gray-500" aria-hidden="true">
-                                        <circle cx="1" cy="1" r="1" />
-                                    </svg>
-                                    Sevierville, TN
-                                </dd>
-                            </div>
-                        </dl>
-                    </li>
+
                     <li class="py-8">
                         <dl class="flex flex-wrap gap-x-3">
                             <dd class="w-full flex-none text-2xl font-semibold tracking-tight text-gray-900">
@@ -329,8 +296,9 @@
                         </dl>
                     </li>
                 </ul>
+
                 <div class="mt-8 flex justify-center sm:justify-start border-t border-gray-300 pt-8">
-                    <a href="#" class="text-sm/6 font-semibold text-primary hover:text-blue-400">View all previous speaking events <b>(coming soon)</b> <span aria-hidden="true">&rarr;</span></a>
+                    <a href="/speaking/previous" class="text-md font-bold text-primary hover:text-blue-400">View all previous speaking events<span aria-hidden="true">&rarr;</span></a>
                 </div>
             </div>
         </div>

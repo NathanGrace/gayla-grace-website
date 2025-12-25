@@ -18,5 +18,8 @@
 	],
 	"/speaking": [
 		"src/routes/+layout.ts"
+	],
+	"/speaking/previous": [
+		"src/routes/+layout.ts"
 	]
 }
